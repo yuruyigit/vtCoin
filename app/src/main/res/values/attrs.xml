@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BadgeView">
+        <!-- 徽章背景色 -->
+        <attr name="badge_bgColor" format="reference|color" />
+        <!-- 徽章文本的颜色 -->
+        <attr name="badge_textColor" format="reference|color" />
+        <!-- 徽章文本字体大小 -->
+        <attr name="badge_textSize" format="reference|dimension" />
+        <!-- 徽章背景与宿主控件上下边缘间距离 -->
+        <attr name="badge_verticalMargin" format="reference|dimension" />
+        <!-- 徽章背景与宿主控件左右边缘间距离 -->
+        <attr name="badge_horizontalMargin" format="reference|dimension" />
+        <!-- 徽章文本边缘与徽章背景边缘间的距离 -->
+        <attr name="badge_padding" format="reference|dimension" />
+        <!-- 徽章在宿主控件中的位置 -->
+        <attr name="badge_gravity" format="enum">
+            <enum name="rightTop" value="0" />
+            <enum name="rightCenter" value="1" />
+            <enum name="rightBottom" value="2" />
+        </attr>
+        <!-- 是否可以拖拽删除徽章 -->
+        <attr name="badge_dragable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MaterialButton">
+        <attr name="cornerRadius" format="integer" />
+        <attr name="shadowHight" format="integer" />
+        <attr name="strokeLine" format="integer" />
+        <attr name="strokeColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="MaxHeightLayout">
+        <attr name="HeightRatio" format="float" />
+        <attr name="HeightDimen" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="wheelview">
+        <attr name="gravity">
+            <enum name="center" value="17" />
+            <enum name="left" value="3" />
+            <enum name="right" value="5" />
+        </attr>
+        <attr name="textColorOut" format="color" />
+        <attr name="textColorCenter" format="color" />
+        <attr name="dividerColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="LineView">
+        <attr name="left" format="integer" />
+        <attr name="top" format="integer" />
+        <attr name="right" format="integer" />
+        <attr name="bottom" format="integer" />
+        <attr name="lineHeight" format="integer" />
+        <attr name="bgColor" format="color" />
+        <attr name="lineColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="DialogFrameLayout">
+        <attr name="maxHeight" format="reference|dimension" />
+        <attr name="maxHeightRatio" format="reference|float" />
+    </declare-styleable>
+
+
+    <declare-styleable name="RatingBar">
+        <!--尺寸值-->
+        <attr name="starImageSize" format="dimension" />
+        <!--星星间距-->
+        <attr name="starPadding" format="dimension" />
+        <!--星星总数-->
+        <attr name="starCount" format="integer" />
+        <!--空白的星星资源文件值-->
+        <attr name="starEmpty" format="reference" />
+        <!--满星资源文件值-->
+        <attr name="starFill" format="reference" />
+        <!--半星资源文件值-->
+        <attr name="starHalf" format="reference" />
+        <!--是否可点击boolean值-->
+        <attr name="clickable" format="boolean" />
+        <!--当前进度float值-->
+        <attr name="starStep" format="float" />
+        <!--每次进度方式的值，整星还是半星-->
+        <attr name="stepSize">
+            <enum name="Half" value="0" />
+            <enum name="Full" value="1" />
+        </attr>
+
+    </declare-styleable>
+
+    <!--侧滑删除-->
+    <declare-styleable name="SwipeMenuLayout">
+        <attr name="swipeEnable" format="boolean" />
+        <attr name="ios" format="boolean" />
+        <attr name="leftSwipe" format="boolean" />
+    </declare-styleable>
+
+    <!--时间抽-->
+    <declare-styleable name="TimeLineMarker">
+        <!--圆点大小-->
+        <attr name="markerSize" format="dimension" />
+        <!--圆点颜色或者图片-->
+        <attr name="marker" format="color|reference" />
+        <!--上面线段颜色或者图片-->
+        <attr name="beginLine" format="color|reference" />
+        <!--下面线段颜色或者图片-->
+        <attr name="endLine" format="color|reference" />
+        <!--线段粗细-->
+        <attr name="lineSize" format="dimension" />
+        <!--横向还是竖向-->
+        <attr name="oritation" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MyTitlebar">
+        <attr name="mtb_leftTxt" format="string" />
+        <attr name="mtb_left_icon" format="reference"/>
+        <attr name="mtb_title" format="string" />
+        <attr name="mtb_rightTxt" format="string" />
+        <attr name="mtb_right_icon" format="reference"/>
+    </declare-styleable>
+</resources>

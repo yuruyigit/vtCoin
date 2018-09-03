@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:tr_pureScrollMode_on="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:overScrollMode="never"
+        >
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="match_parent"
+                android:background="@color/bg_activity"
+                android:orientation="vertical"
+                app:layout_heightPercent="48%w"
+                app:layout_paddingLeftPercent="4%"
+                app:layout_paddingRightPercent="4%">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_paddingTopPercent="3.2%w">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/surplus_amount"
+                        android:textColor="@color/text_99999"
+                        android:textSize="@dimen/text_size_15" />
+
+                    <TextView
+                        android:id="@+id/surplus_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="2000"
+                        android:textColor="@color/text_1616"
+                        android:textSize="@dimen/text_size_15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_paddingTopPercent="3.2%w">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/trading_limit"
+                        android:textColor="@color/text_99999"
+                        android:textSize="@dimen/text_size_15" />
+
+                    <TextView
+                        android:id="@+id/trading_limit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="1000~2000"
+                        android:textColor="@color/text_1616"
+                        android:textSize="@dimen/text_size_15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_paddingTopPercent="3.2%w">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/trading_limit_time"
+                        android:textColor="@color/text_99999"
+                        android:textSize="@dimen/text_size_15" />
+
+                    <TextView
+                        android:id="@+id/trading_limit_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="90分钟"
+                        android:textColor="@color/text_1616"
+                        android:textSize="@dimen/text_size_15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_paddingTopPercent="3.2%w">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/deal_person"
+                        android:textColor="@color/text_99999"
+                        android:textSize="@dimen/text_size_15" />
+
+                    <TextView
+                        android:id="@+id/deal_person"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="阳光听听(165616)"
+                        android:textColor="@color/color_blue"
+                        android:textSize="@dimen/text_size_15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_paddingTopPercent="3.6%w">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/remark"
+                        android:textColor="@color/text_99999"
+                        android:textSize="@dimen/text_size_15" />
+
+                    <TextView
+                        android:id="@+id/deal_remark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="我是过的飞速"
+                        android:textColor="@color/text_1616"
+                        android:textSize="@dimen/text_size_15" />
+                </LinearLayout>
+            </com.zhy.android.percent.support.PercentLinearLayout>
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                app:layout_heightPercent="52.6%w"
+                app:layout_paddingLeftPercent="8.5%"
+                app:layout_paddingTopPercent="6%w">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/deal_price"
+                        android:textColor="@color/text_1616"
+                        android:textSize="@dimen/text_size_15" />
+
+                    <TextView
+                        android:id="@+id/icon_price"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:gravity="center_vertical"
+                        android:text="￥2554"
+                        android:textColor="@color/color_blue"
+                        android:textSize="@dimen/text_size_15" />
+                </LinearLayout>
+
+                <com.zhy.android.percent.support.PercentLinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    app:layout_heightPercent="9.2%w"
+                    app:layout_marginTopPercent="6%w">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/num"
+                        android:textColor="@color/text_1616"
+                        android:textSize="@dimen/text_size_15" />
+
+                    <EditText
+                        android:id="@+id/icon_num"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/bg_white5_5"
+                        android:gravity="center"
+                        android:hint="@string/please_into_num"
+                        android:inputType="numberDecimal"
+                        android:textSize="@dimen/text_size_12"
+                        app:layout_widthPercent="65%" />
+
+                    <TextView
+                        android:id="@+id/coin_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="BTC"
+                        android:textColor="@color/text_1616"
+                        android:textSize="@dimen/text_size_15" />
+                </com.zhy.android.percent.support.PercentLinearLayout>
+
+                <com.zhy.android.percent.support.PercentLinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    app:layout_heightPercent="9.2%w"
+                    app:layout_marginTopPercent="4%w">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/all"
+                        android:textColor="@color/text_1616"
+                        android:textSize="@dimen/text_size_15" />
+
+                    <EditText
+                        android:id="@+id/money_num"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/bg_white5_5"
+                        android:gravity="center"
+                        android:hint="@string/please_into_money"
+                        android:inputType="numberDecimal"
+                        android:textSize="@dimen/text_size_12"
+                        app:layout_widthPercent="65%" />
+
+                    <TextView
+                        android:id="@+id/money_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="CNY"
+                        android:textColor="@color/text_1616"
+                        android:textSize="@dimen/text_size_15" />
+                </com.zhy.android.percent.support.PercentLinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_marginTopPercent="2.3%w">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/deal_pay_way"
+                        android:textColor="@color/text_1616"
+                        android:textSize="@dimen/text_size_13" />
+
+                    <TextView
+                        android:id="@+id/deal_buy_way"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="3dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/weixin_pay_bank"
+                        android:textColor="@color/color_blue"
+                        android:textSize="@dimen/text_size_13" />
+                </LinearLayout>
+            </com.zhy.android.percent.support.PercentLinearLayout>
+
+            <TextView
+                android:id="@+id/deal_buy_into"
+                android:layout_width="match_parent"
+                android:background="@drawable/bg_blue1_5"
+                android:gravity="center"
+                android:text="@string/buy_into"
+                android:textColor="#fefefe"
+                android:textSize="@dimen/text_16"
+                app:layout_heightPercent="12.2%w"
+                app:layout_marginLeftPercent="4%"
+                app:layout_marginRightPercent="4%" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/advertising"
+                android:textColor="#595959"
+                android:textSize="@dimen/text_15"
+                app:layout_marginLeftPercent="4%"
+                app:layout_marginTopPercent="5.5%w" />
+
+            <TextView
+                style="@style/black4_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/please_confirm_after_payment"
+                android:textColor="@color/text_99999"
+                android:textSize="@dimen/text_size_14"
+                app:layout_marginLeftPercent="4%"
+                app:layout_marginTopPercent="2%w" />
+
+            <TextView
+                style="@style/black4_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/advertising_01"
+                app:layout_marginLeftPercent="4%"
+                app:layout_marginTopPercent="1%w" />
+
+            <TextView
+                style="@style/black4_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/advertising_02"
+                app:layout_marginLeftPercent="4%"
+                app:layout_marginTopPercent="0%w" />
+
+            <View
+                android:layout_width="match_parent"
+                app:layout_heightPercent="12%w" />
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+    </ScrollView>
+</com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>

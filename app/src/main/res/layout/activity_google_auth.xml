@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray7"
+    android:orientation="vertical">
+
+
+    <TextView
+        style="@style/black5_15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:layout_marginTopPercent="11%"
+        android:drawableTop="@mipmap/set_up_ertified"
+        android:drawablePadding="@dimen/dimen_10"
+        android:text="@string/not_certified" />
+
+
+    <TextView
+        android:id="@+id/google_down"
+        style="@style/white0_15"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_blue1_5"
+        android:gravity="center"
+        android:text="@string/google_download"
+        android:textColor="@drawable/text_gray9_white0_selector"
+        app:layout_heightPercent="7.8%"
+        app:layout_marginLeftPercent="4%"
+        app:layout_marginRightPercent="4%"
+        app:layout_marginTopPercent="7.5%" />
+    <TextView
+        android:id="@+id/next"
+        style="@style/blue1_15"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_white0_gray6_5"
+        android:gravity="center"
+        android:text="@string/have_next"
+        android:textColor="@drawable/text_gray9_blue1_selector"
+        app:layout_heightPercent="7.8%"
+        app:layout_marginLeftPercent="4%"
+        app:layout_marginRightPercent="4%"
+        app:layout_marginTopPercent="3.8%" />
+
+</com.zhy.android.percent.support.PercentLinearLayout>
+
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f7f7f7"
+    android:orientation="vertical">
+
+    <com.block.vtCoin.widget.starView.RatingBarView
+        android:gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/rbBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        app:starCount="5"
+        app:starEmpty="@mipmap/no_selcet_stars"
+        app:starFill="@mipmap/selcet_stars"
+        app:starHalf="@mipmap/selcet_stars"
+        app:starImageSize="25dp"
+        app:starPadding="15dp"
+        app:starStep="0"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="@string/leave_a_message"
+        android:textColor="@color/text_1616"
+        android:textSize="@dimen/text_size_17" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/bg_white0_gray6"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/other_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="@string/evaluate_hint"
+            android:textColor="@color/text_1616"
+            android:textSize="@dimen/text_size_15" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/evaluate_provide"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/bg_blue1_5"
+        android:gravity="center"
+        android:text="@string/evaluate_provide"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/text_size_17" />
+</LinearLayout>

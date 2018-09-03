@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:tr_pureScrollMode_on="true">
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/rl_pay_way"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            app:layout_heightPercent="7.8%"
+            app:layout_paddingLeftPercent="4%"
+            app:layout_paddingRightPercent="4%">
+
+            <TextView
+                style="@style/black1_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:drawableRight="@mipmap/release_arrow"
+                android:text="@string/pay_way" />
+
+            <TextView
+                android:id="@+id/tv_pay_way"
+                style="@style/gray_ac_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:lines="1"
+                android:text="@string/please_choose"
+                app:layout_marginLeftPercent="30%" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_0.5"
+            android:layout_marginLeft="@dimen/dimen_16"
+            android:background="@color/gray6"
+            app:layout_marginLeftPercent="4%" />
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/rl_contact_way"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_heightPercent="7.8%"
+            app:layout_paddingLeftPercent="4%"
+            app:layout_paddingRightPercent="4%">
+
+            <TextView
+                style="@style/black1_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:drawableRight="@mipmap/release_arrow"
+                android:text="@string/contact_way" />
+
+            <TextView
+                android:id="@+id/tv_contact_way"
+                style="@style/gray_ac_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/please_input"
+                app:layout_marginLeftPercent="30%" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_0.5"
+            android:layout_marginLeft="@dimen/dimen_16"
+            android:background="@color/gray6" />
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/rl_dealer_ad"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_heightPercent="7.8%"
+            app:layout_paddingLeftPercent="4%"
+            app:layout_paddingRightPercent="4%">
+
+            <TextView
+                style="@style/black1_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:drawableRight="@mipmap/release_arrow"
+                android:text="@string/trader_ad" />
+
+            <TextView
+                android:id="@+id/tv_dealer_ad"
+                style="@style/gray_ac_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/please_choose"
+                app:layout_marginLeftPercent="30%" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_0.5"
+            android:layout_marginLeft="@dimen/dimen_16"
+            android:background="@color/gray6" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/gray7"
+            android:gravity="center_vertical"
+            android:text="@string/not_must_choose"
+            android:textColor="#777777"
+            android:textSize="@dimen/dimen_12"
+            app:layout_heightPercent="7.3%"
+            app:layout_paddingLeftPercent="4%"
+            app:layout_paddingRightPercent="4%" />
+
+        <TextView
+            android:id="@+id/only_phone"
+            style="@style/black1_15"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:drawableRight="@mipmap/release_slide_click"
+            android:gravity="center_vertical"
+            android:text="@string/only_phone_certify_user"
+            app:layout_heightPercent="7.7%"
+            app:layout_paddingLeftPercent="4%"
+            app:layout_paddingRightPercent="4%" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_0.5"
+            android:layout_marginLeft="@dimen/dimen_16"
+            android:background="@color/gray6" />
+
+        <TextView
+            android:id="@+id/only_id_card"
+            style="@style/black1_15"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:drawableRight="@mipmap/release_slide"
+            android:gravity="center_vertical"
+            android:text="@string/only_id_card_certify_user"
+            app:layout_heightPercent="7.7%"
+            app:layout_paddingLeftPercent="4%"
+            app:layout_paddingRightPercent="4%" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_0.5"
+            android:layout_marginLeft="@dimen/dimen_16"
+            android:background="@color/gray6" />
+
+        <TextView
+            android:id="@+id/only_google"
+            style="@style/black1_15"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:drawableRight="@mipmap/release_slide"
+            android:gravity="center_vertical"
+            android:text="@string/only_google_certify_user"
+            app:layout_heightPercent="7.7%"
+            app:layout_paddingLeftPercent="4%"
+            app:layout_paddingRightPercent="4%" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/gray7"
+            app:layout_heightPercent="7%" />
+
+        <TextView
+            android:id="@+id/release"
+            style="@style/white0_16"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/bg_before0_5"
+            android:gravity="center"
+            android:text="@string/issue"
+            android:textColor="@drawable/text_gray9_white0_selector"
+            app:layout_heightPercent="7.6%"
+            app:layout_marginLeftPercent="4%"
+            app:layout_marginRightPercent="4%"
+            app:layout_marginTopPercent="5.8%" />
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+</com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>

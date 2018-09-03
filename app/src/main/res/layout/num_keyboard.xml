@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/bg_white0_gray6"
+              android:orientation="vertical"
+              android:padding="1dp"
+    >
+
+    <LinearLayout
+        style="@style/NumKeyboard_linear">
+
+        <TextView
+            android:id="@+id/tvNum1"
+            style="@style/NumKeyboard_item"
+            android:text="1"/>
+
+        <FrameLayout
+            style="@style/VerticalLine"/>
+
+        <TextView
+            android:id="@+id/tvNum2"
+            style="@style/NumKeyboard_item"
+            android:text="2"/>
+
+        <FrameLayout
+            style="@style/VerticalLine"/>
+
+        <TextView
+            android:id="@+id/tvNum3"
+            style="@style/NumKeyboard_item"
+            android:text="3"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        style="@style/HorizontalLine"/>
+
+    <LinearLayout
+        style="@style/NumKeyboard_linear">
+
+        <TextView
+            android:id="@+id/tvNum4"
+            style="@style/NumKeyboard_item"
+            android:text="4"/>
+
+        <FrameLayout
+            style="@style/VerticalLine"/>
+
+        <TextView
+            android:id="@+id/tvNum5"
+            style="@style/NumKeyboard_item"
+            android:text="5"/>
+
+        <FrameLayout
+            style="@style/VerticalLine"/>
+
+        <TextView
+            android:id="@+id/tvNum6"
+            style="@style/NumKeyboard_item"
+            android:text="6"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        style="@style/HorizontalLine"/>
+
+    <LinearLayout
+        style="@style/NumKeyboard_linear">
+
+        <TextView
+            android:id="@+id/tvNum7"
+            style="@style/NumKeyboard_item"
+            android:text="7"/>
+
+        <FrameLayout
+            style="@style/VerticalLine"/>
+
+        <TextView
+            android:id="@+id/tvNum8"
+            style="@style/NumKeyboard_item"
+            android:text="8"/>
+
+        <FrameLayout
+            style="@style/VerticalLine"/>
+
+        <TextView
+            android:id="@+id/tvNum9"
+            style="@style/NumKeyboard_item"
+            android:text="9"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        style="@style/HorizontalLine"/>
+
+    <LinearLayout
+        style="@style/NumKeyboard_linear">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_c6c6c6"/>
+
+        <FrameLayout
+            style="@style/VerticalLine"/>
+
+        <TextView
+            android:id="@+id/tvNum0"
+            style="@style/NumKeyboard_item"
+            android:text="0"/>
+
+        <FrameLayout
+            style="@style/VerticalLine"/>
+
+        <FrameLayout
+            android:id="@+id/fldelete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/color_c6c6c6">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/backspace_black_24dp"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

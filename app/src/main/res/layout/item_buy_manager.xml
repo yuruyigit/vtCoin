@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item"
+    android:background="@color/white0"
+    android:orientation="vertical">
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            app:layout_marginLeftPercent="4%"
+            app:layout_marginRightPercent="4%"
+            android:drawableLeft="@mipmap/administration_ltc"
+            android:layout_centerVertical="true"
+            android:text="@string/releasing"/>
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_marginLeftPercent="12.6%"
+            app:layout_marginTopPercent="2.5%w"
+            app:layout_marginBottomPercent="2.5%w"
+            >
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btc_bit_coin"
+                style="@style/black1_15"
+                />
+            <TextView
+                app:layout_marginTopPercent="2.5%w"
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017-08-06 15:22"
+                style="@style/gray0_12"
+                android:textColor="#999999"
+                android:textSize="@dimen/dimen_12"
+                />
+        </com.zhy.android.percent.support.PercentLinearLayout>
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0.5"
+        app:layout_marginLeftPercent="4%"
+        android:background="@color/gray6"/>
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        app:layout_marginLeftPercent="12.6%"
+        app:layout_paddingBottomPercent="3.8%w"
+        app:layout_paddingTopPercent="3.5%w">
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25322.23 CN"
+                android:textColor="#ff0000"
+                android:textSize="@dimen/dimen_12" />
+
+            <TextView
+                style="@style/gray0_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btc_price"
+                android:textColor="#999999"
+                android:textSize="@dimen/dimen_12"
+                app:layout_marginTopPercent="2.5%w" />
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_marginLeftPercent="40%">
+
+            <TextView
+                android:id="@+id/buy_number"
+                style="@style/black1_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.0000" />
+
+            <TextView
+                style="@style/gray0_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buy_amount"
+                android:textColor="#999999"
+                android:textSize="@dimen/dimen_12"
+                app:layout_marginTopPercent="2.5%w" />
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            app:layout_marginRightPercent="4%">
+
+            <TextView
+                android:id="@+id/need_number"
+                style="@style/black1_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1100.000" />
+
+            <TextView
+                style="@style/gray0_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/need_number"
+                android:text="@string/need_amount"
+                android:textColor="#999999"
+                android:textSize="@dimen/dimen_12"
+                app:layout_marginTopPercent="2.5%w" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/gray7" />
+</com.zhy.android.percent.support.PercentLinearLayout>

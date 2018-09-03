@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/item"
+            android:layout_width="match_parent"
+            app:layout_heightPercent="17%w"
+            app:layout_paddingLeftPercent="4%">
+            <ImageView
+                android:id="@+id/iv_choose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/business_lected" />
+            <ImageView
+                android:id="@+id/iv_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/administration_ltc"
+                app:layout_marginLeftPercent="12%"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                app:layout_marginLeftPercent="20%">
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    style="@style/black1_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="阳光听听" />
+
+                <TextView
+                    android:id="@+id/tv_address"
+                    style="@style/black4_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_6"
+                    android:text="3546AWRG1DVS5653EGSDV456VGF" />
+            </LinearLayout>
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            app:layout_heightPercent="2.8%w"
+            android:background="@color/gray7"/>
+    </com.zhy.android.percent.support.PercentLinearLayout>

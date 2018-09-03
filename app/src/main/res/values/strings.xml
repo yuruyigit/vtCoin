@@ -1,0 +1,487 @@
+<resources>
+    <string name="app_name">VTCoin</string>
+    <!--==============================自定义view=======================-->
+    <!--MyRefreshview-->
+    <string name="push_to_refresh">下拉刷新.....</string>
+    <string name="release_to_refresh">释放刷新.....</string>
+    <string name="refreshing">刷新中.....</string>
+    <string name="load_more">加载更多......</string>
+    <string name="no_more_data">没有更多数据</string>
+    <!--dialog-->
+    <string name="dialog_loading">正在加载数据...</string>
+    <string name="next_do">下一步</string>
+    <!--photo-->
+    <string name="__picker_title">图片选择</string>
+    <string name="__picker_delete">删除</string>
+    <string name="__picker_done">完成</string>
+    <string name="__picker_done_with_count">完成(%1$d/%2$d)</string>
+    <string name="__picker_image_index">%1$d/%2$d</string>
+    <string name="__picker_undo">撤消</string>
+    <string name="__picker_deleted_a_photo">删除了一张图片</string>
+    <string name="__picker_confirm_to_delete">确认删除？</string>
+    <string name="__picker_yes">确定</string>
+    <string name="__picker_cancel">取消</string>
+    <string name="__picker_all_image">所有图片</string>
+    <string name="__picker_over_max_count_tips">你最多可以选择%1$d张图片</string>
+    <string name="__picker_image_count">%1$d张</string>
+    <string name="__picker_preview">预览</string>
+
+    <!--&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&登录、注册&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+    <!--==LoginActivity==-->
+    <string name="login_or_register">登录/注册</string>
+    <string name="account">账号</string>
+    <string name="password">密码</string>
+    <string name="forget_password">忘记密码?</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="phone_and_email">手机号/邮箱</string>
+    <string name="please_password">请输入密码</string>
+    <string name="account_empty">账号不能为空</string>
+    <string name="password_empty">密码不能为空</string>
+    <!--==PhoneRegisterActivity==-->
+    <string name="telephone_register">手机号注册</string>
+    <string name="county_or_city">国家/地区</string>
+    <string name="china">中国</string>
+    <string name="please_phone">手机号</string>
+    <string name="code">验证码</string>
+    <string name="please_code">请输入验证码</string>
+    <string name="please_google_code">请输入谷歌验证码</string>
+    <string name="get_code">获取验证码</string>
+    <string name="get_again">重新获取</string>
+    <string name="second">秒</string>
+    <string name="next">下一步</string>
+    <string name="submit">提交</string>
+    <string name="agree">我已阅读并同意</string>
+    <string name="service_terms">服务条款</string>
+    <string name="email_register">邮箱注册</string>
+    <string name="please_read_terms">请先阅读协议</string>
+    <string name="email_address">邮箱地址</string>
+    <string name="please_email">请输入邮箱地址</string>
+    <string name="phone_register">手机注册</string>
+    <string name="telephone_area">手机号码归属地</string>
+    <!--==RestPasswordActivity==-->
+    <string name="please_set_password">请输入设置密码</string>
+    <string name="sure_password">确认密码</string>
+    <!--==SetPasswordActivity==-->
+    <string name="reset_password">重置密码</string>
+    <string name="set_password">设置密码</string>
+    <string name="reset_sure">确认重置</string>
+    <string name="login_password">登录密码</string>
+    <string name="password_again">重复密码</string>
+    <string name="please_password_again">请再次输入密码</string>
+    <string name="password_not_equals">两次输入密码不一致</string>
+    <string name="send_link_to_email">我们将发送激活链接至：</string>
+    <string name="sure">确认</string>
+    <string name="cancel">取消</string>
+    <!--==SuccessActivity==-->
+    <string name="tip_register_success">注册成功</string>
+    <string name="five_second_skip">注册成功，5秒后跳转到首页</string>
+    <string name="before_time">注册成功，</string>
+    <string name="after_time">秒后跳转到首页</string>
+    <string name="login_right_now">立即登录</string>
+    <string name="email_send_success">发送成功\n请登录邮箱查收邮件激活账号</string>
+    <string name="find_password_success">密码找回成功，5秒后跳转到登录页</string>
+    <string name="email_reset_success">找回密码激活链接已发送至\n您的邮箱，请登录邮箱点击链接进行激活</string>
+    <string name="login_email">登录邮箱</string>
+    <string name="to_login">我已激活，去登录</string>
+    <string name="reset_success">重置成功</string>
+    <!--==EmailRegisterActivity==-->
+    <string name="email_format_fail">邮箱格式不正确</string>
+    <!--==FindBackPasswordActivity==-->
+    <string name="find_by_email">通过邮箱找回</string>
+    <string name="find_by_phone">通过手机号找回</string>
+    <string name="find_password">找回密码</string>
+
+    <!--&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&资讯&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+    <!--==AdvisoryFragment==-->
+    <string name="advisory">资讯</string>
+    <string name="news_information">新闻资讯</string>
+    <string name="low_risk">低风险</string>
+    <string name="steady_growth">稳健成长</string>
+
+    <!--&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&行情&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+    <!--==MarketFragment==-->
+    <string name="market">行情</string>
+    <string name="fragment_market">VT COIN</string>
+
+    <!--&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&买卖&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+    <!--==DealFragment==-->
+    <string name="deal">买卖</string>
+    <string name="buy_into">买入</string>
+    <string name="sell_out">卖出</string>
+    <string name="num">数量</string>
+    <string name="money">金额</string>
+    <string name="please_into_num">请输入数量</string>
+    <string name="please_into_money">请输入金额</string>
+    <!--订单dialog-->
+    <string name="buy_order">买入订单</string>
+    <string name="sell_order">卖出订单</string>
+    <string name="arbitration_order">仲裁订单</string>
+    <!--买入dialog-->
+    <string name="deal_person">交易商</string>
+    <string name="unit_price">单价</string>
+    <string name="deal_with">应付</string>
+    <string name="sure_deal">确认买入</string>
+    <string name="quit_deal">取消买入</string>
+    <string name="please_deal_password">请输入交易密码</string>
+    <string name="please_login_password">请输入登录密码</string>
+    <!--买入tip_dialog-->
+    <string name="Warm_prompt">温馨提示</string>
+    <string name="tip_buyer_sure">订单已提交！请核对卖方的收款信息，核对无误再给卖家付款</string>
+    <string name="go_pay">去给卖家付款?</string>
+    <!--卖出tip_dialog-->
+    <string name="sure_sell">确认卖出</string>
+    <string name="quit_sell">取消卖出</string>
+    <string name="sell_msg">订单已提交！买家付款后，您会收到通知。</string>
+    <string name="sell_pay"> 点击确认查看订单详情。</string>
+    <!--DealDetailActivity-->
+    <string name="deal_detail">交易详情</string>
+    <string name="deal_price">价格</string>
+    <string name="surplus_amount">剩余数量</string>
+    <string name="trading_limit">交易限额</string>
+    <string name="trading_limit_time">付款期限</string>
+    <string name="remark">备注</string>
+    <string name="advertising">广告</string>
+    <string name="please_confirm_after_payment">请付款后再确认进行支付</string>
+    <string name="advertising_01">1、币源稳定，量大</string>
+    <string name="advertising_02">2、可长期合作，量大优惠</string>
+    <string name="deal_pay_way">支持收款方式</string>
+    <string name="weixin_pay_bank">微信/支付宝/银行卡</string>
+    <!--BuyOrderDetailActivity-->
+    <string name="order1">订单号</string>
+    <string name="service_charge">手续费</string>
+    <string name="deal_unit_price">交易单价</string>
+    <string name="deal_num">交易数量</string>
+    <string name="service_charge_precent">手续费率</string>
+    <string name="pay_way">支付方式</string>
+    <string name="deal_total_prices">交易总价</string>
+    <string name="order_state">订单状态</string>
+    <string name="payment_way">付款方式</string>
+    <string name="copy">复制</string>
+    <string name="open_name">开户行</string>
+    <string name="bank_type">银行名称</string>
+    <string name="pay_money">支付金额</string>
+    <string name="Transfer_postscript">转账附言</string>
+    <string name="Transfer_postscript_tip">在转账附言中填入上面的订单号</string>
+    <string name="Transfer_postscript_tip1">请在九十分钟内给卖家手动转账，并核对与上述信息一致</string>
+    <string name="trade">交易</string>
+    <string name="evaluate">评价</string>
+    <string name="confirm_pay">确认付款</string>
+    <string name="accept_qrcode">收款二维码</string>
+    <string name="qr_check_picture">点击查看原图</string>
+    <string name="arbitration_msg">订单生成三十分钟以后再申请仲裁</string>
+    <!--SaleOrderDetailActivity-->
+    <string name="pass">通过</string>
+    <string name="tip_sale_sure">请务必在收到买方付款且付款金额正确后再通过！通过的币将无法追回。</string>
+    <string name="tip_cancel_apply">取消仲裁后，平台将不再介入审理，所产生的交易问题，将由买卖双方自行负责并处理。</string>
+    <string name="is_sure_pass">确认要通过吗？</string>
+    <string name="order_number">单号</string>
+    <string name="buy_person">买家</string>
+    <string name="total_prices">总价</string>
+    <string name="state">状态</string>
+    <string name="account_paid">已付款</string>
+    <string name="go_evaluate">去评价</string>
+    <string name="sale_have_pay">买方已付款</string>
+    <!--ApplyActivity-->
+    <string name="apply_arbitrament">申请仲裁</string>
+    <string name="applation_content">申请内容</string>
+    <string name="applation_content_msg1">买方线下付款后，卖方不通过。</string>
+    <string name="applation_content_msg2">卖方通过后，买方线下没付款。</string>
+    <string name="applation_content_hnit">其他情况，点击输入(0~100字)</string>
+    <string name="Evidence_to_upload">证据上传</string>
+    <string name="Evidence_to_upload1">（请上传支付凭证，聊天信息及订单信息）</string>
+    <string name="confrim_provide">确认提交</string>
+    <string name="order_detail">订单详情</string>
+    <!--ApplyOrderDetailActivity-->
+    <string name="cancel_arbitrament">取消仲裁</string>
+    <string name="apply_detail">仲裁详情</string>
+    <string name="check_progress">查看进度</string>
+    <!--ApplyProgressActivity-->
+    <string name="apply_progress">仲裁进度</string>
+    <string name="apply_content">仲裁内容</string>
+    <!--QrPictureActivity-->
+    <string name="qr_picture">二维码</string>
+    <string name="save_picture_weixin">保存到相册并跳转到微信</string>
+    <string name="save_picture_pay">保存到相册并跳转到支付宝</string>
+    <!--EvaluateActivity-->
+    <string name="evaluate_hint">说说对此次交易的满意度.....</string>
+    <string name="evaluate_provide">提交评论</string>
+    <string name="leave_a_message">留言</string>
+    <string name="evaluate_detail">评价详情</string>
+    <string name="star_rate">星级</string>
+    <string name="no_evaluate">暂无评价</string>
+
+    <!--&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&消息&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+    <string name="message">消息</string>
+    <string name="fragment_deal">CNY</string>
+
+    <!--&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&我的界面&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+    <!--==MineFragment==-->
+    <string name="mine">我的</string>
+    <string name="issue_buy">发布买入</string>
+    <string name="issue_sale">发布卖出</string>
+    <string name="trad_record">交易记录</string>
+    <string name="buy_manager">买入管理</string>
+    <string name="sale_manager">卖出管理</string>
+    <string name="wallet">钱包</string>
+    <string name="mine_currency">买入币</string>
+    <string name="turn_in_coin">转入币</string>
+    <string name="bill">账单</string>
+    <string name="sale_currency">卖出币</string>
+    <string name="turn_out_coin">转出币</string>
+    <string name="my_focus">我的关注</string>
+    <string name="share">分享</string>
+    <!--++++++++++++++++++++++++++++++++++++++++用户信息+++++++++++++++++++++++++++++++++++++++++++++-->
+    <!--==UserManagerActivity==-->
+    <string name="person_info">账户信息</string>
+    <string name="avatar">头像</string>
+    <string name="nickname">昵称</string>
+    <string name="sign_name">个性签名</string>
+    <string name="area">地区</string>
+    <string name="area_choose">地区</string>
+    <string name="no_setting">未设置</string>
+    <string name="login_history">登陆历史</string>
+    <string name="take_photo">拍照</string>
+    <string name="photo_code">从相册选择</string>
+    <string name="sign_num">0~50个字</string>
+    <!--==ChooseLanguageActivity==-->
+    <string name="more_language">多语言</string>
+    <string name="chinese">中文</string>
+    <string name="English">English</string>
+    <string name="india">印文</string>
+
+    <!--++++++++++++++++++++++++++++++++++++++++++++设置++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <!--==MineSettingActivity==-->
+    <string name="mine_setting">个人设置</string>
+    <string name="deal_password">交易密码</string>
+    <string name="change_login_password">修改登录密码</string>
+    <string name="phone_num">手机号码</string>
+    <string name="phone">手机号</string>
+    <string name="email">电子邮件</string>
+    <string name="second_login_verify">二次登录验证</string>
+    <string name="account_address_manager">账号地址管理</string>
+    <string name="authentication">身份认证</string>
+    <string name="google_attest">谷歌认证</string>
+    <string name="gathering_setting">收款设置</string>
+    <string name="about_we">关于我们</string>
+    <string name="exit_current_account">退出当前账号</string>
+    <string name="have_setting">已设定</string>
+    <string name="have_not_setting">未设定</string>
+    <string name="unbind">未绑定</string>
+    <string name="have_bind">已绑定</string>
+    <string name="not_certified">未认证</string>
+    <string name="have_certified">已认证</string>
+    <string name="close">关闭</string>
+    <string name="open">开启</string>
+    <!--==SetDealPasswordActivity==-->
+    <string name="set_deal_password">设置交易密码</string>
+    <!--==ModifyPasswordActivity==-->
+    <string name="modify_login_password">修改登录密码</string>
+    <string name="modify_deal_password">修改交易密码</string>
+    <string name="please_before_login_password">请输入原登录密码</string>
+    <string name="please_new_login_password">输入新的登录密码</string>
+    <string name="please_repeat_new_login_password">重复新的登录密码</string>
+    <string name="define">确定</string>
+    <!--==FindBackPasswordActivity==-->
+    <string name="find_back_password">找回密码</string>
+    <string name="phone_find_back">手机找回</string>
+    <string name="email_find_back">邮箱找回</string>
+    <string name="we_send_your_bind_email">我们将发送验证码到您绑定的邮箱</string>
+    <!--============手机号码============-->
+    <!--==BindPhoneActivity==-->
+    <string name="bind_phone">绑定手机</string>
+    <string name="have_bind_phone">已绑定手机</string>
+    <string name="change_phone_num">更换手机号</string>
+    <!--==ChangePhoneNumActivity==-->
+    <string name="we_send_your_bind_phone">我们将发送验证码到您绑定的手机</string>
+    <string name="my_phone">15007253417</string>
+    <!--==NewPhoneNumActivity==-->
+    <string name="please_new_phone">请输入新手机号</string>
+    <string name="sure_change">确认更换</string>
+    <string name="new_phone_num">新手机号</string>
+    <!--============电子邮件============-->
+    <string name="bind_email_address">绑定邮箱地址</string>
+    <string name="please_email_address">请输入邮箱地址</string>
+    <string name="sure_bind">确认绑定</string>
+    <!--============二次登录验证============-->
+    <string name="verify_way">验证方式</string>
+    <string name="msm">短信</string>
+    <string name="google">谷歌</string>
+    <!--============账号地址管理============-->
+    <!--==AccountAddressActivity==-->
+    <string name="account_address">账号地址</string>
+    <!--==ChooseAddressActivity==-->
+    <string name="choose_address">选择地址</string>
+    <!--==EditAddressActivity==-->
+    <string name="edit_address">编辑地址</string>
+    <string name="note_name">备注名称</string>
+    <string name="accept_address">接收地址</string>
+    <!--==AddAddressActivity==-->
+    <string name="add_address">添加地址</string>
+    <string name="add_tip">每个币种您最多可保存10个常用地址</string>
+    <string name="sure_add">确认添加</string>
+    <!--============身份认证============-->
+    <string name="id_type">证件类型</string>
+    <string name="please_up_id_image">请上传证件照</string>
+    <string name="id_front">证件正面</string>
+    <string name="id_back">证件反面</string>
+    <string name="auth_name">认证姓名</string>
+    <string name="id_num">证件号码</string>
+    <string name="auth_tip1">1、必须是清晰可辨的彩色原件电子版，可以是扫描件或数码拍摄照片。</string>
+    <string name="auth_tip2" translatable="false">"2、不可使用复印件照片，仅支持，jpg、jpeg、bmp格式的图片格式</string>
+    <string name="auth_tip3">3、照片大小不超过1M。</string>
+    <string name="commit">提交</string>
+    <string name="please_auth_name">请输入认证姓名</string>
+    <string name="please_id_num">请输入证件号码</string>
+    <string name="id_card">身份证</string>
+    <string name="other_card">外籍护照</string>
+    <string name="taiwan_card">台胞证</string>
+    <string name="back_card">回乡证</string>
+    <!--============谷歌认证============-->
+    <string name="google_download">Android谷歌下载器</string>
+    <string name="have_next">已下载，下一步</string>
+    <string name="tip_logout">您确定要退出吗？</string>
+    <string name="receipt_set">收款设置</string>
+
+    <!--++++++++++++++++++++++++++++++++++++++++发布买入+++++++++++++++++++++++++++++++++++++++++++++-->
+    <!--==IssueBuyActivity==-->
+    <string name="type_btc">币种     BTC</string>
+    <string name="currency_cmy">货币     CMY</string>
+    <string name="type">币种</string>
+    <string name="currency">货币</string>
+    <!--==IssueBuyActivity1==-->
+    <string name="btc_stock">BTC存量</string>
+    <string name="market_price">市场价(CNY/BTC)</string>
+    <string name="buy_amount">买入数量</string>
+    <string name="please_amount">请输入数量</string>
+    <string name="price_float">价格浮动</string>
+    <string name="buy_price">买入价格</string>
+    <string name="min_deal_money">最小交易额</string>
+    <string name="max_deal_money">最大交易额</string>
+    <!--==IssueBuyActivity2==-->
+    <string name="optional">选填</string>
+    <string name="please_choose">请选择</string>
+    <string name="contact_way">联系方式</string>
+    <string name="please_input">请输入</string>
+    <string name="trader_ad">交易商广告</string>
+    <string name="not_must_choose">以下为非必填选项</string>
+    <string name="only_phone_certify_user">仅限手机认证用户</string>
+    <string name="only_id_card_certify_user">仅限身份证认证用户</string>
+    <string name="only_google_certify_user">仅限谷歌认证用户</string>
+    <string name="issue">发布</string>
+    <!--==InputPhoneActivity==-->
+    <string name="edit_pay">编辑支付</string>
+    <string name="save">保存</string>
+    <string name="please_own_phone">请输入您本人有效手机号</string>
+    <!--==PayWayActivity==-->
+    <string name="warmth_tips">温馨提示</string>
+    <string name="have_not_set_pay_way">你还没有设置支付方式</string>
+    <string name="setting_right_now">立即设置</string>
+    <string name="weixin">微信</string>
+    <string name="alipay">支付宝</string>
+    <!--==EditPayActivity==-->
+    <string name="edit_way">编辑方式</string>
+    <string name="take_pictures">拍照</string>
+    <string name="select_from_album">从相册选择</string>
+    <string name="bank_name">银行名称</string>
+    <string name="bank_card">银行卡</string>
+    <string name="eg_chain_bank">如：中国银行</string>
+    <string name="open_bank">开户行</string>
+    <string name="eg_shen_zhen_bank">如：深圳分行龙兴支行</string>
+    <string name="please_bank_account">请输入银行卡账号</string>
+    <string name="name">姓名</string>
+    <string name="own_bank_name">请输入银行卡持有人姓名</string>
+    <string name="qr_code">二维码</string>
+    <string name="delete">删除</string>
+    <!--==TraderAdActivity==-->
+    <string name="new_add_ad">新增广告</string>
+    <!--++++++++++++++++++++++++++++++++++++++++交易记录+++++++++++++++++++++++++++++++++++++++++++++-->
+    <!--==DealRecodeActivity==-->
+    <string name="deal_recode">交易记录</string>
+    <string name="buy_deal_recode">买入交易记录</string>
+    <string name="sale_deal_recode">卖出交易记录</string>
+    <string name="amount">数量</string>
+    <string name="price">单价</string>
+    <string name="pay">支付</string>
+    <!--==BuyDealDetailActivity==-->
+    <string name="my_order_number">订单号</string>
+    <string name="trader">交易商</string>
+    <string name="fee">手续费</string>
+    <string name="sale_single_price">交易单价</string>
+    <string name="deal_amount">交易数量</string>
+    <string name="fee_rate">手续费率</string>
+    <string name="deal_total">交易总价</string>
+    <string name="deal_time">交易时间</string>
+    <string name="show_review">查看评价</string>
+    <!--++++++++++++++++++++++++++++++++++++++++买入管理+++++++++++++++++++++++++++++++++++++++++++++-->
+    <!--==BuyManagerActivity==-->
+    <string name="all">全部</string>
+    <string name="releasing">发布中</string>
+    <!--==BuyDetailActivity==-->
+    <string name="btc_bit_coin">BTC比特币</string>
+    <string name="btc_price">价格 BTC</string>
+    <string name="need_amount">还需数量</string>
+    <string name="buy_detail">买入详情</string>
+    <string name="pay_currency">付款货币</string>
+    <string name="deal_limit">交易限额</string>
+    <string name="release_time">发布日期</string>
+    <string name="refresh_date">刷新日期</string>
+    <string name="refresh_information">刷新信息</string>
+    <string name="pause_deal">暂停交易</string>
+    <string name="no_recode">暂无相关记录</string>
+    <string name="cancel_deal">取消交易</string>
+    <string name="start_deal">启动交易</string>
+    <!--++++++++++++++++++++++++++++++++++++++++卖出管理+++++++++++++++++++++++++++++++++++++++++++++-->
+    <!--==SaleManagerActivity==-->
+    <string name="sale_detail">卖出详情</string>
+    <string name="tip_is_start_deal">启动交易后您的挂单信息将显示\n在挂单列表中，是否确认启动</string>
+    <!--++++++++++++++++++++++++++++++++++++++++我的关注+++++++++++++++++++++++++++++++++++++++++++++-->
+    <!--MyAttentionActivity-->
+    <string name="my_attention">我的关注</string>
+    <!--MyHomeActivity-->
+    <string name="my_home">个人主页</string>
+    <string name="consult_now">立即咨询</string>
+    <string name="un_follow">取消关注</string>
+    <string name="attention">关注</string>
+    <string name="location">所在地</string>
+    <string name="user_rating">用户评分</string>
+    <string name="total_deal_num">共交易次数</string>
+    <string name="create_time">创建账户时间</string>
+    <string name="sale_deal">该交易商卖出交易</string>
+    <string name="buy_deal">该交易商买入交易</string>
+    <!--++++++++++++++++++++++++++++++++++++++++成为交易商+++++++++++++++++++++++++++++++++++++++++++++-->
+    <!--TobeTraderActivity-->
+    <string name="apply_tobe_trader">申请成为交易商</string>
+    <string name="join_vtCoin">加入VT Coin</string>
+    <string name="tobe_trader">成为交易商</string>
+    <string name="apply_require">申请条件：</string>
+    <string name="require1">1、资产限定：50000美金</string>
+    <string name="require2">2、手机认证</string>
+    <string name="require3">3、认证身份证信息</string>
+    <string name="require4">4、完善支付信息</string>
+    <string name="require5">5、完善通讯信息</string>
+    <string name="apply_now">立即申请</string>
+    <string name="trader_service_terms">交易商服务条款</string>
+    <!--TobeTraderActivity1-->
+    <string name="phone_verify">手机认证</string>
+    <string name="defined_assets">资产限定</string>
+    <string name="pay_info_verify">支付信息认证</string>
+    <string name="area_verify">地区认证</string>
+    <string name="sure_apply">确认申请</string>
+
+    <!--&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&按照规范该字符串&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+    <string name="tip_login_success">登录成功</string>
+    <string name="tip_sms_send_success">验证码发送成功</string>
+    <string name="tip_sms_verify_success">验证码验证成功</string>
+    <string name="tip_please_get_cod">请获取验证码</string>
+    <string name="tip_reset_password_success">重置密码成功</string>
+    <string name="tip_password_can_not_equal">新密码和旧密码不能一样</string>
+    <string name="tip_deal_and_login_can_not_equal">交易密码和登录密码不能一样</string>
+    <string name="tip_modify_login_pas_success">修改登录密码成功</string>
+    <string name="tip_modify_deal_pas_success">修改交易密码成功</string>
+    <string name="tip_set_deal_pas_success">设置交易密码成功</string>
+    <string name="tip_have_not_bind_phone">您还未绑定手机号</string>
+    <string name="tip_have_not_bind_email">您还未绑定邮箱</string>
+    <string name="tip_have_not_data">当前没有数据</string>
+
+</resources>

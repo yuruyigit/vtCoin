@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white0"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_marginLeftPercent="10%"
+        app:layout_marginRightPercent="10%"
+        android:orientation="horizontal"
+        app:layout_marginTopPercent="17%"
+
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/black1_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/account"
+            />
+
+        <com.block.vtCoin.widget.editText.ClearEditText
+            android:id="@+id/et_account"
+            style="@style/black1_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:paddingBottom="@dimen/dimen_8"
+            android:paddingTop="@dimen/dimen_8"
+            android:layout_marginLeft="@dimen/dimen_32"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="@string/phone_and_email"
+            android:textColorHint="@color/gray0" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="@dimen/dimen_16"
+        android:layout_marginRight="@dimen/dimen_16"
+        android:background="@color/blue1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_marginLeftPercent="10%"
+        android:layout_marginRight="26dp"
+        android:orientation="horizontal"
+        app:layout_marginTopPercent="2%">
+
+        <TextView
+            style="@style/black1_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center_vertical"
+            android:text="@string/password"
+             />
+
+        <com.block.vtCoin.widget.editText.ClearEditText
+            android:id="@+id/et_password"
+            style="@style/black1_14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginLeft="@dimen/dimen_32"
+            android:paddingBottom="@dimen/dimen_8"
+            android:paddingTop="@dimen/dimen_8"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="@string/please_password"
+            android:textColorHint="@color/gray0" />
+
+        <ImageView
+            android:id="@+id/visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/dimen_8"
+            android:src="@mipmap/visible" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/blue1" />
+
+    <TextView
+        android:id="@+id/forgetPassword"
+        style="@style/gray0_12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/dimen_16"
+        android:padding="16dp"
+        android:text="@string/forget_password" />
+
+    <TextView
+        android:id="@+id/login"
+        style="@style/white0_16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_blue1_5"
+        android:gravity="center"
+        android:padding="@dimen/dimen_12"
+        android:text="@string/login"
+        android:textColor="@drawable/text_gray9_white0_selector"
+        app:layout_marginLeftPercent="4%"
+        app:layout_marginRightPercent="4%"
+        app:layout_marginTopPercent="2%" />
+
+    <TextView
+        android:id="@+id/register1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_marginLeftPercent="82%"
+        android:padding="@dimen/dimen_10"
+        android:text="@string/register"
+        style="@style/blue2_13"
+        android:visibility="gone"
+        />
+    <TextView
+        android:visibility="visible"
+        android:id="@+id/register0"
+        style="@style/blue1_16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white0_blue1_5"
+        android:gravity="center"
+        android:padding="@dimen/dimen_12"
+        android:text="@string/register"
+        android:textColor="@drawable/text_gray9_blue1_selector"
+        app:layout_marginLeftPercent="4%"
+        app:layout_marginRightPercent="4%"
+        app:layout_marginTopPercent="3%" />
+
+</com.zhy.android.percent.support.PercentLinearLayout>

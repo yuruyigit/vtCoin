@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_ly"
+        android:layout_alignParentTop="true"
+        android:scrollbars="none">
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/order_detail"
+            style="@style/black1_15"
+            android:layout_width="match_parent"
+            android:drawableRight="@mipmap/right_02"
+            android:gravity="center_vertical"
+            android:text="@string/order_detail"
+            app:layout_heightPercent="7.2%"
+            app:layout_paddingLeftPercent="4%"
+            app:layout_paddingRightPercent="4%" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@color/gray7"
+            android:gravity="center_vertical"
+            android:text="@string/applation_content"
+            android:textColor="@color/black0"
+            android:textSize="@dimen/text_size_17"
+            app:layout_heightPercent="7.5%"
+            app:layout_paddingLeftPercent="4%" />
+
+        <TextView
+            android:id="@+id/sell_question"
+            style="@style/black1_15"
+            android:layout_width="match_parent"
+            android:drawableRight="@mipmap/business_chec"
+            android:gravity="center_vertical"
+            android:text="@string/applation_content_msg1"
+            app:layout_heightPercent="7.2%"
+            app:layout_paddingLeftPercent="4%"
+            app:layout_paddingRightPercent="4%" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_0.5"
+            android:background="@color/gray6"
+            app:layout_marginLeftPercent="4%" />
+
+        <TextView
+            android:id="@+id/buy_question"
+            style="@style/black1_15"
+            android:layout_width="match_parent"
+            android:drawableRight="@mipmap/business_lected"
+            android:gravity="center_vertical"
+            android:text="@string/applation_content_msg2"
+            app:layout_heightPercent="7.2%"
+            app:layout_paddingLeftPercent="4%"
+            app:layout_paddingRightPercent="4%" />
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/gray7"
+            android:orientation="vertical"
+            app:layout_heightPercent="26%"
+            app:layout_paddingBottomPercent="2%"
+            app:layout_paddingLeftPercent="4%"
+            app:layout_paddingRightPercent="4%"
+            app:layout_paddingTopPercent="2.2%">
+
+            <EditText
+                android:id="@+id/other_question"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white0"
+                android:gravity="start"
+                android:hint="@string/applation_content_hnit"
+                android:padding="@dimen/dimen_8"
+                android:textColor="@color/text_1616"
+                android:textSize="@dimen/text_size_14" />
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:background="@color/gray7"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            app:layout_heightPercent="7.5%">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Evidence_to_upload"
+                android:textColor="@color/text_1616"
+                android:textSize="@dimen/text_size_17" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Evidence_to_upload1"
+                android:textColor="@color/text_99999"
+                android:textSize="@dimen/text_size_13" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            >
+            <com.block.vtCoin.photo_picker.widget.MyMultiPickResultView
+                android:id="@+id/pickPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.zhy.android.percent.support.PercentLinearLayout>
+</ScrollView>
+
+<com.zhy.android.percent.support.PercentRelativeLayout
+android:id="@+id/bottom_ly"
+android:layout_width="match_parent"
+app:layout_heightPercent="16%w"
+android:layout_alignParentBottom="true"
+android:background="@drawable/bg_white0_gray6"
+android:orientation="horizontal">
+<TextView
+    android:id="@+id/confirm_provide"
+    android:layout_width="match_parent"
+    app:layout_heightPercent="11%w"
+    android:background="@drawable/bg_blue1_5"
+    android:gravity="center"
+    android:layout_centerInParent="true"
+    android:text="@string/confrim_provide"
+    app:layout_marginLeftPercent="4%"
+    app:layout_marginRightPercent="4%"
+    android:textColor="@color/color_white"
+    android:textSize="@dimen/text_size_17" />
+</com.zhy.android.percent.support.PercentRelativeLayout>
+
+    </com.zhy.android.percent.support.PercentRelativeLayout>

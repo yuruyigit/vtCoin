@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white0"
+    android:orientation="vertical">
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="17%w"
+        app:layout_paddingLeftPercent="4.2%"
+        app:layout_paddingRightPercent="4.2%"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_time"
+            style="@style/black4_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="08-07\n19:00" />
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            app:layout_marginLeftPercent="7.8%"
+            android:src="@mipmap/administration_ltc"
+            />
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            app:layout_marginLeftPercent="8.5%"
+            android:text="转入莱特币"
+            style="@style/black1_17"
+            />
+        <TextView
+            android:id="@+id/tv_amount"
+            style="@style/black5_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="+3.7541 LTC"
+            app:layout_marginLeftPercent="17%"
+            />
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0.5"
+        android:background="@color/gray6"
+        app:layout_marginLeftPercent="4.2%"
+        app:layout_marginRightPercent="4.2%" />
+
+</com.zhy.android.percent.support.PercentLinearLayout>

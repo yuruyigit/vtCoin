@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:id="@+id/rl_phone_verify"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="7.6%"
+        app:layout_paddingLeftPercent="4.2%"
+        app:layout_paddingRightPercent="4.2%">
+
+        <TextView
+            style="@style/black1_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableRight="@mipmap/release_arrow"
+            android:text="@string/phone_verify" />
+
+        <TextView
+            android:id="@+id/tv_phone_state"
+            style="@style/black4_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/have_certified"
+            app:layout_marginRightPercent="4.9%" />
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0.5"
+        android:background="@color/gray6"
+        app:layout_marginLeftPercent="4.2%" />
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:id="@+id/rl_auth_verify"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="7.6%"
+        app:layout_paddingLeftPercent="4.2%"
+        app:layout_paddingRightPercent="4.2%">
+
+        <TextView
+            style="@style/black1_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableRight="@mipmap/release_arrow"
+            android:text="@string/authentication" />
+
+        <TextView
+            android:id="@+id/tv_auth_state"
+            style="@style/black4_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/not_certified"
+            app:layout_marginRightPercent="4.9%" />
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0.5"
+        android:background="@color/gray6"
+        app:layout_marginLeftPercent="4.2%" />
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:id="@+id/rl_defined_assets"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="7.6%"
+        app:layout_paddingLeftPercent="4.2%"
+        app:layout_paddingRightPercent="4.2%">
+
+        <TextView
+            style="@style/black1_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableRight="@mipmap/release_arrow"
+            android:text="@string/defined_assets" />
+
+        <TextView
+            android:id="@+id/tv_assets_state"
+            style="@style/black4_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/not_certified"
+            app:layout_marginRightPercent="4.9%" />
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0.5"
+        android:background="@color/gray6"
+        app:layout_marginLeftPercent="4.2%" />
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:id="@+id/rl_pay_info_verify"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="7.6%"
+        app:layout_paddingLeftPercent="4.2%"
+        app:layout_paddingRightPercent="4.2%">
+
+        <TextView
+            style="@style/black1_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableRight="@mipmap/release_arrow"
+            android:text="@string/pay_info_verify" />
+
+        <TextView
+            android:id="@+id/tv_pay_state"
+            style="@style/black4_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/not_certified"
+            app:layout_marginRightPercent="4.9%" />
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0.5"
+        android:background="@color/gray6"
+        app:layout_marginLeftPercent="4.2%" />
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:id="@+id/rl_area_verify"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="7.6%"
+        app:layout_paddingLeftPercent="4.2%"
+        app:layout_paddingRightPercent="4.2%">
+
+        <TextView
+            style="@style/black1_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableRight="@mipmap/release_arrow"
+            android:text="@string/area_verify" />
+
+        <TextView
+            android:id="@+id/tv_area_state"
+            style="@style/black4_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/not_certified"
+            app:layout_marginRightPercent="4.9%" />
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0.5"
+        android:background="@color/gray6"
+        app:layout_marginLeftPercent="4.2%" />
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/gray7"
+        app:layout_heightPercent="1.9%" />
+
+    <TextView
+        android:id="@+id/sure_apply"
+        style="@style/white0_15"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_blue1_5"
+        android:gravity="center"
+        android:text="@string/sure_apply"
+        app:layout_heightPercent="7.6%"
+        app:layout_marginLeftPercent="4.2%"
+        app:layout_marginRightPercent="4.2%"
+        app:layout_marginTopPercent="3.8%" />
+
+</com.zhy.android.percent.support.PercentLinearLayout>
+
+

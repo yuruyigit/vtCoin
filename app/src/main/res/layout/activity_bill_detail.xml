@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white0"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:layout_paddingTopPercent="5.6%"
+        android:text="SC转入"
+        style="@style/black5_17"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:layout_paddingTopPercent="2%"
+        app:layout_paddingBottomPercent="5.6%"
+        android:text="+100000.0000 SC"
+        style="@style/blue1_23"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0.5"
+        android:background="@color/gray6"
+        app:layout_marginLeftPercent="4.2%"
+        app:layout_marginRightPercent="4.2%" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_marginLeftPercent="4.2%"
+        app:layout_marginRightPercent="4.2%"
+        app:layout_paddingBottomPercent="3.7%"
+        app:layout_paddingTopPercent="5.8%">
+
+        <TextView
+            style="@style/black4_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="类型" />
+
+        <TextView
+            android:id="@+id/tv_currency"
+            style="@style/black1_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="转入" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_paddingBottomPercent="3.7%"
+        app:layout_marginLeftPercent="4.2%"
+        app:layout_marginRightPercent="4.2%"
+        >
+
+        <TextView
+            style="@style/black4_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间" />
+
+        <TextView
+            android:id="@+id/tv_float_money"
+            style="@style/black1_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="2017-06-16 18:00" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_paddingBottomPercent="5.6%"
+        app:layout_marginLeftPercent="4.2%"
+        app:layout_marginRightPercent="4.2%">
+
+        <TextView
+            style="@style/black4_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单编号" />
+
+        <TextView
+            android:id="@+id/tv_max_money"
+            style="@style/blue1_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="SC661ABS65106SSC" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/gray7"/>
+
+
+</com.zhy.android.percent.support.PercentLinearLayout>

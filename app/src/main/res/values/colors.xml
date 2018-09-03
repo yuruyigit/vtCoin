@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008dee</color>
+    <color name="colorPrimaryDark">#008dee</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorControlNormal">#FF78909C</color>
+    <color name="colorControlActivated">#FF03A9F4</color>
+    <color name="colorSwitchThumbNormal">#FF78909C</color>
+    <color name="colorPrimaryQuarter">#3303A9F4</color>
+
+    <color name="color_white">#ffffff</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="color_blue">#008dee</color>
+    <color name="color_yellow">#eee600</color>
+    <color name="color_7">#777777</color>
+
+    <color name="red">#e50011</color>
+    <color name="red1">#ff0000</color>
+    <color name="red2">#ff5a49</color>
+    <!--blue-->
+    <color name="blue0">#4388fe</color>
+    <color name="blue1">#008dee</color>
+    <color name="blue2">#0074c4</color>
+    <color name="blue3">#0F6FB7</color>
+    <color name="blue4">#3490e3</color>
+    <color name="blue5">#3eabff</color>
+    <color name="blue6">#1b6da5</color>
+    <!--green-->
+    <color name="green">#00CC00</color>
+    <color name="green0">#01ae15</color>
+    <color name="green1">#239682</color>
+    <!--white-->
+    <color name="white0">#ffffff</color>
+    <color name="white1">#f1f1fe</color>
+    <color name="white2">#f8f9fe</color>
+    <color name="white3">#fcf2f2</color>
+    <color name="white4">#fefefe</color>
+    <color name="white5">#e9f1f7</color>
+    <!--before-->
+    <color name="before_sure">#d6e3ef</color>
+    <color name="black">#000000</color>
+    <color name="color_c6c6c6">#c6c6c6</color>
+    <color name="color_f7f7f7">#f7f7f7</color>
+    <color name="color_ebebeb">#ebebeb</color>
+    <color name="color_b4c8db">#b4c8db</color>
+    <color name="tab_text">#a6aeb2</color>
+    <color name="bg_activity">#f4f9fc</color>
+    <color name="text_green">#01ae15</color>
+    <color name="text_99999">#999999</color>
+    <color name="text_1616">#161616</color>
+
+    <color name="yellow">#ee5f00</color>
+
+    <color name="before0">#b1ccde</color>
+    <color name="before1">#b4c8db</color>
+    <color name="before2">#e9f1f7</color>
+    <!--black-->
+    <color name="black0">#000000</color>
+    <color name="black1">#161616</color>
+    <color name="black2">#222222</color>
+    <color name="black3">#333333</color>
+    <color name="black4">#999999</color>
+    <color name="black5">#595959</color>
+    <color name="black6">#777777</color>
+    <!--gray-->
+    <color name="gray8">#898989</color>
+    <color name="gray0">#909090</color>
+    <color name="gray_ac">#acacac</color>
+    <color name="gray1">#bdbdbd</color>
+    <color name="gray2">#cbcbcb</color>
+    <color name="gray">#cccccc</color>
+    <color name="gray3">#c6c6c6</color>
+    <color name="gray4">#dddddd</color>
+    <color name="gray5">#ecf0f3</color>
+    <color name="gray6">#ebebeb</color>
+    <color name="gray7">#f7f7f7</color>
+    <color name="gray9">#f4f9fc</color>
+    <color name="gray_f6">#f6f6f6</color>
+
+    <!--drawable颜色-->
+    <drawable name="text_blue0">#4388fe</drawable>
+    <drawable name="text_blue1">#008dee</drawable>
+    <drawable name="text_white0">#ffffff</drawable>
+    <drawable name="text_black0">#000000</drawable>
+    <drawable name="text_black1">#161616</drawable>
+    <drawable name="text_gray0">#909090</drawable>
+    <drawable name="text_gray1">#bdbdbd</drawable>
+    <drawable name="text_gray">#cccccc</drawable>
+    <drawable name="text_gray4">#dddddd</drawable>
+
+</resources>

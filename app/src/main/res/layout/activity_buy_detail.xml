@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white0"
+    android:orientation="vertical">
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="9.8%"
+        android:background="@color/gray9">
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@mipmap/administration_ltc"
+            android:gravity="right|center_vertical"
+            android:text="@string/releasing"
+            app:layout_marginLeftPercent="4.2%"
+            app:layout_marginRightPercent="4.2%" />
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/black1_15"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btc_bit_coin"
+            app:layout_marginLeftPercent="12.6%"
+            />
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0.5"
+        android:background="@color/gray6"
+        app:layout_marginLeftPercent="4.2%"
+        app:layout_marginRightPercent="4.2%" />
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        app:layout_heightPercent="10.5%"
+        android:background="@color/gray9"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        app:layout_paddingLeftPercent="12.6%">
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+           >
+
+            <TextView
+                android:id="@+id/amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25322.23 CN"
+                android:textColor="#ff0000"
+                android:textSize="@dimen/dimen_12" />
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/gray0_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btc_price"
+                android:textColor="#999999"
+                android:textSize="@dimen/dimen_12"
+                app:layout_paddingTopPercent="1.8%" />
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            app:layout_marginBottomPercent="2.4%"
+            app:layout_marginTopPercent="2.6%">
+
+            <TextView
+                android:id="@+id/buy_number"
+                style="@style/black1_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.0000" />
+
+            <TextView
+                style="@style/gray0_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buy_amount"
+                android:textColor="#999999"
+                android:textSize="@dimen/dimen_12"
+                app:layout_paddingTopPercent="1.8%"/>
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            app:layout_marginBottomPercent="2.4%"
+            app:layout_marginTopPercent="2.6%">
+
+            <TextView
+                android:id="@+id/need_number"
+                style="@style/black1_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1100.000" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/gray0_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/need_amount"
+                android:textColor="#999999"
+                android:textSize="@dimen/dimen_12"
+                app:layout_paddingTopPercent="1.8%"/>
+        </com.zhy.android.percent.support.PercentLinearLayout>
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_marginLeftPercent="4.2%"
+        app:layout_marginRightPercent="4.2%"
+        app:layout_paddingBottomPercent="2%"
+        app:layout_paddingTopPercent="5.5%">
+
+        <TextView
+            style="@style/black4_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pay_currency" />
+
+        <TextView
+            android:id="@+id/tv_currency"
+            style="@style/black1_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="CNY" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_paddingBottomPercent="2%"
+        app:layout_marginLeftPercent="4.2%"
+        app:layout_marginRightPercent="4.2%"
+        >
+
+        <TextView
+            style="@style/black4_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price_float" />
+
+        <TextView
+            android:id="@+id/tv_float_money"
+            style="@style/black1_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="-45%" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_paddingBottomPercent="2%"
+        app:layout_marginLeftPercent="4.2%"
+        app:layout_marginRightPercent="4.2%">
+
+        <TextView
+            style="@style/black4_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deal_limit" />
+
+        <TextView
+            android:id="@+id/tv_max_money"
+            style="@style/black1_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="100-10000000CNY" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_paddingBottomPercent="2%"
+        app:layout_marginLeftPercent="4.2%"
+        app:layout_marginRightPercent="4.2%">
+
+        <TextView
+            style="@style/black4_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pay_way" />
+
+        <TextView
+            android:id="@+id/tv_pay_way"
+            style="@style/black1_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="SEPA（欧盟）银行转账、微信" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_paddingBottomPercent="2%"
+        app:layout_marginLeftPercent="4.2%"
+        app:layout_marginRightPercent="4.2%">
+
+        <TextView
+            style="@style/black4_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/release_time" />
+
+        <TextView
+            android:id="@+id/issue_time"
+            style="@style/black1_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="2017-08-04 15:46" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_paddingBottomPercent="2%"
+        app:layout_marginLeftPercent="4.2%"
+        app:layout_marginRightPercent="4.2%">
+
+        <TextView
+            style="@style/black4_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/refresh_date" />
+
+        <TextView
+            android:id="@+id/refresh_time"
+            style="@style/black1_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="2017-08-05 08:22" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_paddingBottomPercent="5.5%"
+        app:layout_marginLeftPercent="4.2%"
+        app:layout_marginRightPercent="4.2%">
+
+        <TextView
+            style="@style/black4_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trader_ad" />
+
+        <TextView
+            android:id="@+id/trader_ad"
+            style="@style/black1_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="率可能拉来的率氨氯纳滤你拉的" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/gray7"
+        app:layout_heightPercent="2.6%"
+        app:layout_marginBottomPercent="5%" />
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="7.6%"
+        app:layout_paddingLeftPercent="4.2%"
+        app:layout_paddingRightPercent="4.2%">
+
+        <TextView
+            android:id="@+id/tv_information"
+            style="@style/white0_15"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_blue1_5"
+            android:gravity="center"
+            android:text="@string/refresh_information"
+            app:layout_widthPercent="43.4%"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/tv_deal"
+            style="@style/white0_15"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bg_green0_5"
+            android:gravity="center"
+            android:text="@string/pause_deal"
+            app:layout_widthPercent="43.4%" />
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/white0"
+        app:layout_heightPercent="30%"/>
+
+
+</com.zhy.android.percent.support.PercentLinearLayout>

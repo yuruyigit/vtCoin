@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white0">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_above="@+id/bottom_rl">
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/order_detail"
+                style="@style/black1_15"
+                android:layout_width="match_parent"
+                android:drawableRight="@mipmap/release_arrow"
+                android:gravity="center_vertical"
+                android:text="@string/order_detail"
+                app:layout_heightPercent="7.4%"
+                app:layout_paddingLeftPercent="4.2%"
+                app:layout_paddingRightPercent="4.2%" />
+
+            <TextView
+                style="@style/black1_17"
+                android:layout_width="match_parent"
+                android:background="@color/gray7"
+                android:gravity="center_vertical"
+                android:text="@string/apply_progress"
+                app:layout_heightPercent="8%"
+                app:layout_paddingLeftPercent="4.2%" />
+
+            <ListView
+                android:id="@+id/apply_listView"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                app:layout_heightPercent="45%"
+                android:divider="@null"
+                />
+
+            <TextView
+                style="@style/black1_17"
+                android:layout_width="match_parent"
+                android:background="@color/gray7"
+                android:drawableRight="@mipmap/release_arrow"
+                android:gravity="center_vertical"
+                android:text="@string/apply_content"
+                app:layout_heightPercent="8%"
+                app:layout_paddingLeftPercent="4.2%" />
+
+            <TextView
+                android:id="@+id/tv_apply_content"
+                style="@style/black1_15"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:text="线下付款后，卖家不通过"
+                app:layout_heightPercent="7.4%"
+                app:layout_paddingLeftPercent="4.2%" />
+
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+
+    </ScrollView>
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:id="@+id/bottom_rl"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="16%w"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white0"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_0.5"
+            android:background="@color/gray6"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            app:layout_marginLeftPercent="4.2%"
+            app:layout_marginRightPercent="4.2%"
+            app:layout_heightPercent="11%w">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                style="@style/blue1_15"
+                />
+            <TextView
+                android:id="@+id/cancel_apply"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/dimen_16"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_white0_gray6_5"
+                android:gravity="center"
+                android:text="@string/cancel_arbitrament"
+                style="@style/blue1_15"
+                />
+        </LinearLayout>
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+</com.zhy.android.percent.support.PercentRelativeLayout>
+
+

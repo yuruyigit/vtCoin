@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!--中间蒙版层，为选中时，为中间向上下渐变，选中时，黑色半透明蒙版-->
+  <item android:state_selected="true">
+    <shape>
+
+      <solid android:color="#99000000"/>
+    </shape>
+  </item>
+
+  <item>
+    <shape>
+      <gradient
+          android:startColor="#40000000"
+          android:endColor="#40000000"
+          android:centerX="0.5"
+          android:centerY="0.5"
+          android:centerColor="#00000000"
+          android:angle="90"
+        android:type="linear">
+
+      </gradient>
+
+    </shape>
+  </item>
+
+
+</selector>

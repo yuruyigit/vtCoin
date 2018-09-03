@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_paddingLeftPercent="4.2%"
+        app:layout_paddingTopPercent="3.5%w"
+        app:layout_paddingBottomPercent="3.4%w"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deal_person"
+            android:textColor="@color/text_1616"
+            android:textSize="@dimen/text_size_17"
+            style="@style/black1_17"
+            />
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_marginTopPercent="3%w"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/nickname"
+                android:textColor="@color/text_99999"
+                android:textSize="@dimen/text_size_14"
+                app:layout_widthPercent="36%" />
+
+            <TextView
+                android:id="@+id/nick_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="极速听听（665615fSD）"
+                android:textColor="@color/color_blue"
+                android:textSize="@dimen/text_size_14" />
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_marginTopPercent="3%w"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/trade"
+                android:textColor="@color/text_99999"
+                android:textSize="@dimen/text_size_14"
+                app:layout_widthPercent="36%" />
+
+            <TextView
+                android:id="@+id/trader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1564单"
+                android:textColor="@color/text_1616"
+                android:textSize="@dimen/text_size_14" />
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_marginTopPercent="3%w"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/evaluate"
+                android:textColor="@color/text_99999"
+                android:textSize="@dimen/text_size_14"
+                app:layout_widthPercent="36%" />
+
+            <TextView
+                android:id="@+id/evaluate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_green_2"
+                app:layout_paddingLeftPercent="1.4%"
+                app:layout_paddingRightPercent="1.4%"
+                app:layout_paddingTopPercent="0.5%"
+                app:layout_paddingBottomPercent="0.5%"
+                android:text="4.6"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/text_size_14" />
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_marginTopPercent="3.3%w"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_way"
+                android:textColor="@color/text_99999"
+                android:textSize="@dimen/text_size_14"
+                app:layout_widthPercent="36%" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/business_chat1" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="18dp"
+                android:src="@mipmap/business_telephone" />
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+</com.zhy.android.percent.support.PercentRelativeLayout>
+
+

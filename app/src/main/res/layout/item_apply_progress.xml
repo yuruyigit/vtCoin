@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white0"
+    android:orientation="horizontal">
+<com.block.vtCoin.widget.time_line.TimeLineMarkerView
+    android:id="@+id/time_line"
+    android:layout_width="60dp"
+    android:layout_height="match_parent"
+    app:beginLine="@color/gray6"
+    app:endLine="@color/gray6"
+    app:oritation="false"
+    app:layout_paddingLeftPercent="4%"
+    app:layout_paddingRightPercent="4%"
+    app:marker="@mipmap/arbitration_chno"
+    app:lineSize="@dimen/dimen_0.5"
+    />
+
+   <com.zhy.android.percent.support.PercentLinearLayout
+       android:layout_width="match_parent"
+       app:layout_heightPercent="17.5%w"
+       android:orientation="vertical"
+       android:gravity="center_vertical"
+      >
+       <TextView
+           android:id="@+id/tv_time"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="2017-06-22  18:32"
+           android:textSize="12sp"
+           android:textColor="#777777"
+           android:layout_gravity="center_vertical"
+           />
+       <TextView
+           android:id="@+id/tv_content"
+           android:layout_marginTop="@dimen/dimen_4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="15sp"
+           android:textColor="#777777"
+           android:text="买方提出仲裁"
+           />
+   </com.zhy.android.percent.support.PercentLinearLayout>
+
+</com.zhy.android.percent.support.PercentLinearLayout>

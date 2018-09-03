@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_white0_10"
+                android:gravity="center_horizontal"
+    >
+
+    <LinearLayout
+        android:id="@+id/llContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="98dp"
+        android:orientation="vertical"
+        android:paddingBottom="12dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="12dp"
+        >
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            style="@style/black1_17"
+            android:visibility="gone"
+            android:text="@string/Warm_prompt"
+            />
+        <TextView
+            android:id="@+id/tvMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            style="@style/black5_15"
+            android:gravity="center"
+            android:visibility="visible"
+            android:text="请输入密码"
+            />
+        <TextView
+            android:id="@+id/tvMsg_do"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            style="@style/black5_15"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="是否确认？"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTwoButton"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_below="@id/llContent"
+        android:background="@color/transparent"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        >
+
+        <TextView
+            android:id="@+id/tvLeft"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:text="@string/cancel"
+            style="@style/black5_15"
+            />
+
+        <FrameLayout
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/gray6"/>
+
+        <TextView
+            android:id="@+id/tvRight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:text="@string/sure"
+            android:textColor="@color/color_blue"
+            android:textSize="@dimen/text_sp_15"
+            />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/llContent"
+        android:background="@color/gray6"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray5"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_44"
+        android:background="@color/color_blue"
+        android:gravity="center"
+        android:text="@string/news_information"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/margin_16" />
+
+    <com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:tr_pureScrollMode_on="true"
+        >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        >
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.zhouwei.mzbanner.MZBannerView
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                app:layout_heightPercent="46%w"
+                app:open_mz_mode="false"
+                app:canLoop="true"
+                app:middle_page_cover="true"
+                app:indicatorAlign="right"
+                app:indicatorPaddingRight="@dimen/dimen_40"
+                app:indicatorPaddingBottom="0dp"
+                />
+
+            <com.zhy.android.percent.support.PercentRelativeLayout
+                android:layout_width="match_parent"
+                app:layout_heightPercent="24%w"
+                app:layout_marginTopPercent="2.8%w"
+                android:background="@color/color_white"
+                app:layout_paddingLeftPercent="4%"
+                app:layout_paddingTopPercent="3%w"
+                >
+                <com.zhy.android.percent.support.PercentLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/cny_money"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="7.0000"
+                            android:textColor="@color/text_green"
+                            android:textSize="@dimen/text_size_16" />
+                        <TextView
+                            android:layout_marginLeft="@dimen/dimen_6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="CNY"
+                            style="@style/black3_10"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_marginTopPercent="24%"
+                        android:text="VTC(微特币) 实时行情"
+                        android:textColor="@color/text_99999"
+                        android:textSize="@dimen/text_size_10" />
+                </com.zhy.android.percent.support.PercentLinearLayout>
+
+                <com.zhy.android.percent.support.PercentLinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    app:layout_marginLeftPercent="45.3%"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="基于区块链技术的稳健数字货币"
+                        style="@style/black3_12"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_marginTopPercent="7%"
+                        android:text="价格稳定 投资首选"
+                        android:textColor="@color/text_99999"
+                        android:textSize="@dimen/text_size_10" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_marginTopPercent="10%"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_white0_yellow_2"
+                            android:paddingBottom="1dp"
+                            android:paddingLeft="7dp"
+                            android:paddingRight="7dp"
+                            android:paddingTop="1dp"
+                            android:text="@string/low_risk"
+                            android:textColor="@color/yellow"
+                            android:textSize="@dimen/text_size_12" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/bg_white0_yellow_2"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="9dp"
+                            android:paddingRight="9dp"
+                            android:paddingTop="2dp"
+                            android:text="@string/steady_growth"
+                            android:textColor="@color/yellow"
+                            android:textSize="@dimen/text_size_12" />
+                    </LinearLayout>
+                </com.zhy.android.percent.support.PercentLinearLayout>
+            </com.zhy.android.percent.support.PercentRelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_marginTopPercent="2.8%w"
+                android:background="@color/color_white"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="9dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2017首届中国区块链极客高峰论坛在国家会议中心举行"
+                    style="@style/black3_14" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/h_recycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp">
+
+                </android.support.v7.widget.RecyclerView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="作者：清水  2017-08-08 17:59"
+                    android:textColor="@color/text_99999"
+                    android:textSize="@dimen/text_size_10" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_0.5"
+                android:background="#eeeeee"/>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/v_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_white">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </com.zhy.android.percent.support.PercentLinearLayout>
+    </ScrollView>
+    </com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>
+</LinearLayout>

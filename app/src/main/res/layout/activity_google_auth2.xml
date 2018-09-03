@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white0"
+    android:orientation="vertical">
+
+    <com.block.vtCoin.widget.editText.ClearEditText
+        android:id="@+id/et_code"
+        style="@style/black1_14"
+        android:layout_width="match_parent"
+        android:background="@null"
+        android:hint="@string/please_google_code"
+        android:inputType="phone"
+        android:textColorHint="@color/gray0"
+        app:layout_heightPercent="7.8%"
+        app:layout_marginLeftPercent="4.2%"
+        app:layout_marginRightPercent="4.2%"
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/gray7"
+        app:layout_heightPercent="1.9%" />
+
+    <TextView
+        android:id="@+id/next"
+        style="@style/white0_16"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_before0_5"
+        android:gravity="center"
+        android:text="@string/submit"
+        android:textColor="@drawable/text_gray9_white0_selector"
+        app:layout_heightPercent="7.8%"
+        app:layout_marginLeftPercent="4%"
+        app:layout_marginRightPercent="4%"
+        app:layout_marginTopPercent="5.7%" />
+
+</com.zhy.android.percent.support.PercentLinearLayout>
+
+

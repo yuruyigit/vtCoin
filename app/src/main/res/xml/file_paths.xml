@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <paths>
+        <!-- 这个路径是跟下载更新apk路径是一致的。所以如果代码中的更新apk路径发生了改变，这里也要做改变 -->
+        <external-path path="" name="vtcion/download" />
+        <external-path
+            name="camera_photos"
+            path="."/>
+        <external-path
+            name="files_root"
+            path="Android/data/com.block.vtcion/"/>
+        <external-path
+            name="external_storage_root"
+            path="."/>
+    </paths>
+
+</resources>

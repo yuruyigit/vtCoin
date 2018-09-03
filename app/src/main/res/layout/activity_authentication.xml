@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:tr_pureScrollMode_on="true">
+
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.zhy.android.percent.support.PercentRelativeLayout
+                android:id="@+id/rl_id_type"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_heightPercent="7.6%"
+                app:layout_paddingLeftPercent="4.2%"
+                app:layout_paddingRightPercent="4.2%">
+
+                <TextView
+                    style="@style/black1_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:drawableRight="@mipmap/release_arrow"
+                    android:text="@string/id_type" />
+
+                <TextView
+                    android:id="@+id/tv_id_name"
+                    style="@style/black4_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/id_card"
+                    app:layout_marginLeftPercent="24.6%" />
+            </com.zhy.android.percent.support.PercentRelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_0.5"
+                android:background="@color/gray6"
+                app:layout_marginLeftPercent="4%" />
+
+            <TextView
+                android:id="@+id/tv_change_login_password"
+                style="@style/black5_14"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/please_up_id_image"
+                app:layout_heightPercent="8.3%"
+                app:layout_paddingLeftPercent="4.2%"
+                app:layout_paddingRightPercent="4.2%" />
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                app:layout_heightPercent="18%"
+                app:layout_marginLeftPercent="9%"
+                app:layout_marginRightPercent="9%">
+
+                <com.zhy.android.percent.support.PercentRelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@mipmap/apply_picture">
+
+                    <ImageView
+                        android:id="@+id/iv_front_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:scaleType="centerCrop" />
+                </com.zhy.android.percent.support.PercentRelativeLayout>
+
+                <com.zhy.android.percent.support.PercentRelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@mipmap/apply_picture"
+                    app:layout_marginLeftPercent="9.7%">
+
+                    <ImageView
+                        android:id="@+id/iv_back_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:scaleType="centerCrop" />
+                </com.zhy.android.percent.support.PercentRelativeLayout>
+            </com.zhy.android.percent.support.PercentLinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_marginTopPercent="1%">
+
+                <TextView
+                    style="@style/black5_13"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/id_front" />
+
+                <TextView
+                    style="@style/black5_13"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/id_back" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:background="@color/gray6"
+                app:layout_heightPercent="1.7%"
+                app:layout_marginTopPercent="2%" />
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                app:layout_heightPercent="7.6%">
+
+                <TextView
+                    style="@style/black5_13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/auth_name"
+                    app:layout_paddingLeftPercent="4.2%" />
+
+                <EditText
+                    android:id="@+id/et_auth_name"
+                    style="@style/gray_ac_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="@string/please_auth_name"
+                    app:layout_marginLeftPercent="10%" />
+            </com.zhy.android.percent.support.PercentLinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_0.5"
+                android:background="@color/gray6" />
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                app:layout_heightPercent="7.6%">
+
+                <TextView
+                    style="@style/black5_13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@string/id_num"
+                    app:layout_paddingLeftPercent="4.2%" />
+
+                <EditText
+                    android:id="@+id/et_id_num"
+                    style="@style/gray_ac_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="@string/please_id_num"
+                    app:layout_marginLeftPercent="10%" />
+            </com.zhy.android.percent.support.PercentLinearLayout>
+
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@color/gray7"
+                android:orientation="vertical"
+                app:layout_heightPercent="38%"
+                app:layout_paddingLeftPercent="4.2%"
+                app:layout_paddingRightPercent="4.2%"
+                app:layout_paddingTopPercent="3%">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/auth_tip1"
+                    android:textColor="#9f9f9f"
+                    android:textSize="@dimen/text_12" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/auth_tip2"
+                    android:textColor="#9f9f9f"
+                    android:textSize="@dimen/text_12"
+                    app:layout_marginTopPercent="2%" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/auth_tip3"
+                    android:textColor="#9f9f9f"
+                    android:textSize="@dimen/text_12"
+                    app:layout_marginTopPercent="2%" />
+
+                <TextView
+                    android:id="@+id/commit"
+                    style="@style/white0_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@drawable/bg_blue1_5"
+                    android:gravity="center"
+                    android:text="@string/commit"
+                    app:layout_heightPercent="20%"
+                    app:layout_marginTopPercent="5.5%w" />
+            </com.zhy.android.percent.support.PercentLinearLayout>
+            <View
+                android:layout_width="match_parent"
+                app:layout_heightPercent="10%"
+                android:background="@color/gray7"/>
+        </com.zhy.android.percent.support.PercentLinearLayout>
+</com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>
+

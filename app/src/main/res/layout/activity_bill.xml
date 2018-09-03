@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white0"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/turn_in_bill"
+        style="@style/black1_15"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:drawableRight="@mipmap/release_arrow"
+        android:gravity="center_vertical"
+        android:text="转入账单"
+        app:layout_heightPercent="7.8%"
+        app:layout_paddingLeftPercent="4.2%"
+        app:layout_paddingRightPercent="4.2%" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0.5"
+        android:background="@color/gray6"
+        app:layout_marginLeftPercent="4.2%"
+        app:layout_marginRightPercent="4.2%" />
+
+    <TextView
+        android:id="@+id/turn_out_bill"
+        style="@style/black1_15"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:drawableRight="@mipmap/release_arrow"
+        android:gravity="center_vertical"
+        android:text="转出账单"
+        app:layout_heightPercent="7.8%"
+        app:layout_paddingLeftPercent="4.2%"
+        app:layout_paddingRightPercent="4.2%" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/gray7"
+        app:layout_heightPercent="2.8%" />
+</com.zhy.android.percent.support.PercentLinearLayout>

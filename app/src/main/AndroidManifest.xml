@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.block.vtCoin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+
+    <!-- 二维码权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_ADDED" />
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_CHANGED" />
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_INSTALL" />
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_REPLACED" />
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <!--&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&容联start&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+    //接收IM消息的自定义权限
+    <permission android:name="com.liubin.chat.permission.RECEIVE_MSG" android:protectionLevel="signature"/>
+    //使用接收IM消息权限
+    <uses-permission android:name="com.liubin.chat.permission.RECEIVE_MSG"/>
+    //以下为必选配置
+    //允许程序打开网络sockets
+    <uses-permission android:name="android.permission.INTERNET"/>
+    //允许程序访问有关的网络信息
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    //允许程序访问Wi-Fi网络状态信息
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    //允许应用读写用户的外部存储器
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    //允许读取电话的状态
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    //允许一个程序获取信息有关当前或最近运行的任务，一个缩略的任务状态，是否活动等等
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    //允许程序录制音频
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    //允许应用程序修改全局声音设置的权限
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    //允许使用PowerManager的WakeLocks在进程休眠时能够后台保持
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    //允许请求访问使用照相设备(如果使用视频通话则必选配置)
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <!--&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&容联end&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+
+    <application
+        android:name="com.block.vtCoin.main.BApplication"
+        android:allowBackup="true"
+        android:configChanges="locale"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/BaseActivityTheme">
+        <activity
+            android:name="com.block.vtCoin.main.MainActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.block.vtCoin.login.LoginActivity"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.block.vtCoin.login.PhoneRegisterActivity" />
+        <activity android:name="com.block.vtCoin.login.phone_location.TelephoneLocationActivity" />
+        <activity android:name="com.block.vtCoin.login.SetPasswordActivity" />
+        <activity android:name="com.block.vtCoin.login.SuccessActivity" />
+        <activity android:name="com.block.vtCoin.login.EmailRegisterActivity" />
+        <activity android:name="com.block.vtCoin.login.FindPasswordActivity" />
+        <activity android:name="com.block.vtCoin.login.TermsActivity" />
+        <!--++++++++++++++++++++++++++买入币+++++++++++++++++++++++++++++-->
+        <!--发布买入-->
+        <activity android:name="com.block.vtCoin.mine.issue_buy.IssueBuyActivity1" />
+        <!--发布买入-->
+        <activity android:name="com.block.vtCoin.mine.issue_buy.IssueBuyActivity2" />
+        <!--支付方式-->
+        <activity android:name="com.block.vtCoin.mine.issue_buy.pay_way.PayWayActivity" />
+        <!--支付方式-->
+        <activity android:name="com.block.vtCoin.mine.issue_buy.pay_way.PayWayActivity1" />
+        <!--编辑支付-->
+        <activity android:name="com.block.vtCoin.mine.issue_buy.pay_way.EditPayActivity" />
+        <!--显示编辑照片-->
+        <activity android:name="com.block.vtCoin.mine.issue_buy.pay_way.ShowImageActivity" />
+        <!--输入手机号-->
+        <activity android:name="com.block.vtCoin.mine.issue_buy.InputPhoneActivity" />
+        <!--交易商广告-->
+        <activity android:name="com.block.vtCoin.mine.setting.trader_ad.TraderAdActivity" />
+        <!--新增广告-->
+        <activity android:name="com.block.vtCoin.mine.setting.trader_ad.AddAdActivity" />
+        <!--++++++++++++++++++++++++++买入管理+++++++++++++++++++++++++++++-->
+        <activity android:name="com.block.vtCoin.mine.buy_manager.BuyManagerActivity" />
+        <activity android:name="com.block.vtCoin.mine.buy_manager.fragment.BuyDetailActivity" />
+        <activity android:name="com.block.vtCoin.mine.sale_manager.SaleManagerActivity" />
+        <activity android:name="com.block.vtCoin.mine.sale_manager.fragment.SaleDetailActivity" />
+        <!--++++++++++++++++++++++++++交易记录+++++++++++++++++++++++++++++-->
+        <activity android:name="com.block.vtCoin.mine.deal_recode.DealRecodeActivity" />
+        <activity android:name="com.block.vtCoin.mine.deal_recode.buy_deal_recode.BuyDealActivity" />
+        <activity android:name="com.block.vtCoin.mine.deal_recode.buy_deal_recode.fragment.BuyDealDetailActivity" />
+        <!--++++++++++++++++++++++++++钱包+++++++++++++++++++++++++++++-->
+        <activity android:name="com.block.vtCoin.mine.wallet.WalletActivity" />
+
+        <!--++++++++++++++++++++++++++账单+++++++++++++++++++++++++++++-->
+        <activity android:name="com.block.vtCoin.mine.bill.BillActivity" />
+        <activity android:name="com.block.vtCoin.mine.bill.turn_in.TurnInBillActivity" />
+        <activity android:name="com.block.vtCoin.mine.bill.turn_out.TurnOutBillActivity" />
+        <activity android:name="com.block.vtCoin.mine.bill.turn_in.SearchBillActivity" />
+        <activity android:name="com.block.vtCoin.mine.bill.turn_in.SearchResultActivity" />
+        <activity android:name="com.block.vtCoin.mine.bill.turn_in.MonthBillActivity" />
+        <activity android:name="com.block.vtCoin.mine.bill.turn_in.fragment.BillDetailActivity" />
+        <!--++++++++++++++++++++++++++转入币+++++++++++++++++++++++++++++-->
+        <activity android:name="com.block.vtCoin.mine.buy_coin.TurnInActivity" />
+        <!--++++++++++++++++++++++++++转出币+++++++++++++++++++++++++++++-->
+        <activity android:name="com.block.vtCoin.mine.sale_coin.TurnOutActivity" />
+
+        <!--新闻资讯-->
+        <activity android:name="com.block.vtCoin.advisory.AdvisoryActivity" />
+        <!--订单-->
+        <activity android:name="com.block.vtCoin.deal.order.OrderActivity" />
+        <!--交易详情-->
+        <activity
+            android:name="com.block.vtCoin.deal.fragment.DealDetailActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <!--交易详情-->
+        <activity
+            android:name="com.block.vtCoin.deal.fragment.DealDetailActivity1"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!--聊天界面-->
+        <activity
+            android:name="com.block.vtCoin.deal.fragment.ChatActivity"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!--买入订单详情-->
+        <activity android:name="com.block.vtCoin.deal.order.buy_detail.BuyOrderDetailActivity" />
+        <!--卖出订单详情-->
+        <activity android:name="com.block.vtCoin.deal.order.sale_detail.SaleOrderDetailActivity" />
+        <!--仲裁订单详情-->
+        <activity android:name="com.block.vtCoin.deal.order.apply_detail.ApplyOrderDetailActivity" />
+        <!--仲裁进度-->
+        <activity android:name="com.block.vtCoin.deal.order.apply_detail.ApplyProgressActivity" />
+        <!--二维码-->
+        <activity android:name="com.block.vtCoin.deal.order.buy_detail.QrPictureActivity" />
+        <!--评价-->
+        <activity android:name="com.block.vtCoin.deal.order.buy_detail.EvaluateActivity" />
+        <!--评价详情-->
+        <activity android:name="com.block.vtCoin.mine.deal_recode.buy_deal_recode.fragment.EvaluatedetailActivity" />
+        <!--仲裁-->
+        <activity
+            android:name="com.block.vtCoin.deal.order.apply_detail.ApplyActivity"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!--++++++++++++++++++++++++++图象+++++++++++++++++++++++++++++-->
+        <!--用户信息-->
+        <activity android:name="com.block.vtCoin.mine.user.UserManagerActivity" />
+        <!--个性签名-->
+        <activity android:name="com.block.vtCoin.mine.user.SignNameActivity" />
+        <!--昵称修改-->
+        <activity android:name="com.block.vtCoin.mine.user.NickNameActivity" />
+        <!--多语言-->
+        <activity android:name="com.block.vtCoin.mine.user.ChooseLanguageActivity" />
+        <!--登录历史-->
+        <activity android:name="com.block.vtCoin.mine.user.LoginHistoryActivity" />
+        <!--++++++++++++++++++++++++++设置+++++++++++++++++++++++++++++-->
+        <!--个人设置-->
+        <activity android:name="com.block.vtCoin.mine.setting.setting.MineSettingActivity" />
+        <!--设置交易密码-->
+        <activity android:name="com.block.vtCoin.mine.setting.set_deal_password.SetDealPasswordActivity" />
+        <activity android:name="com.block.vtCoin.mine.setting.modify_password.ModifyPasswordActivity" />
+        <activity android:name="com.block.vtCoin.mine.setting.modify_password.FindBackPasswordActivity" />
+        <activity android:name="com.block.vtCoin.mine.setting.modify_password.PhoneFindBackPasswordActivity" />
+        <activity android:name="com.block.vtCoin.mine.setting.modify_password.EmailFindBackPasswordActivity" />
+        <!--手机号码-->
+        <activity android:name="com.block.vtCoin.mine.setting.phone_num.BindPhoneActivity" />
+        <activity android:name="com.block.vtCoin.mine.setting.phone_num.ChangePhoneNumActivity" />
+        <activity android:name="com.block.vtCoin.mine.setting.phone_num.NewPhoneNumActivity" />
+        <!--电子邮件-->
+        <activity android:name="com.block.vtCoin.mine.setting.email.BindEmailAddressActivity" />
+        <!--二次登录验证-->
+        <activity android:name="com.block.vtCoin.mine.setting.second_login_verify.SecondLoginVerifyActivity" />
+        <!--账号地址管理-->
+        <activity android:name="com.block.vtCoin.mine.setting.account_address.AccountAddressActivity" />
+        <activity android:name="com.block.vtCoin.mine.setting.account_address.EditAddressActivity" />
+        <activity android:name="com.block.vtCoin.mine.setting.account_address.AddAddressActivity" />
+        <activity android:name="com.block.vtCoin.mine.setting.account_address.ChooseAddressActivity" />
+        <!--身份认证-->
+        <activity
+            android:name="com.block.vtCoin.mine.setting.authentication.AuthenticationActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <!--谷歌认证-->
+        <activity android:name="com.block.vtCoin.mine.setting.google_auth.GoogleAuthActivity" />
+        <activity android:name="com.block.vtCoin.mine.setting.google_auth.GoogleAuthActivity1" />
+        <activity android:name="com.block.vtCoin.mine.setting.google_auth.GoogleAuthActivity2" />
+        <!--收款设置-->
+        <activity android:name="com.block.vtCoin.mine.setting.receipt_setting.ReceiptSettingActivity" />
+        <!--++++++++++++++++++++++++++我的关注+++++++++++++++++++++++++++++-->
+        <activity android:name="com.block.vtCoin.mine.my_attention.MyAttentionActivity" />
+        <activity android:name="com.block.vtCoin.mine.my_attention.MyHomeActivity" />
+        <!--++++++++++++++++++++++++++成为交易商+++++++++++++++++++++++++++++-->
+        <activity android:name="com.block.vtCoin.mine.tobe_trader.TobeTraderActivity" />
+        <activity android:name="com.block.vtCoin.mine.tobe_trader.TobeTraderActivity1" />
+
+        <!--第三方activity-->
+        <activity
+            android:name="com.block.vtCoin.photo_picker.PhotoPickerActivity"
+            android:theme="@style/photoPickerTheme" />
+
+        <activity
+            android:name="com.block.vtCoin.photo_picker.PhotoPagerActivity"
+            android:theme="@style/photoPickerTheme" />
+
+        <!-- 为了解决安卓7.0安装apk报错的问题，需要提供一个provider -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.block.vtCoin.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <!--元数据-->
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <!--&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&容联start&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+        // SDK核心服务配置
+        <service android:name="com.yuntongxun.ecsdk.ECClientService"
+            android:enabled="true" android:process=":push" />
+        // 提高sdk服务存活率（v5.2.2r以后版本提供）
+        <service android:name="com.yuntongxun.ecsdk.ECClientService$InnerService"
+            android:enabled="true" android:process=":push" />
+        // 以下两项为SDK内部处理项，其中booter.Alarm在v5.1.9r以后版本提供
+        <receiver android:name="com.yuntongxun.ecsdk.booter.CCPReceivers$AlarmReceiver"
+            android:process=":push"/>
+        <receiver android:name="com.yuntongxun.ecsdk.booter.Alarm"
+            android:exported="false" android:process=":push"/>
+        // SDK网络改变广播
+        <receiver
+            android:name="com.yuntongxun.ecsdk.booter.CCPReceivers$ConnectionReceiver"
+            android:process=":push">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        // 声明自定义通知的广播接收器（需要替换包名，详见注意事项）
+        <receiver
+            android:name=".yun.service.YuntxNotifyReceiver"
+            android:exported="false">
+            <intent-filter>
+                // 接收push消息
+                // action匹配规则{packageName + ".action" + "功能"}
+                <action android:name="com.block.vtCoin.action.VOIP_CALL" />
+                <action android:name="com.block.vtCoin.action.MESSAGE" />
+                <action android:name="com.block.vtCoin.action.NOTIFICATION_CLICK" />
+                <action android:name="com.block.vtCoin.action.PERSON_VERSION" />
+            </intent-filter>
+        </receiver>
+        <!--&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&容联end&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&-->
+    </application>
+</manifest>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white0"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="13%w"
+        android:background="@color/gray9"
+        app:layout_marginTopPercent="5%w">
+
+        <TextView
+            android:id="@+id/pay_name"
+            style="@style/black1_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@mipmap/administration_btb"
+            android:drawablePadding="@dimen/dimen_12"
+            android:gravity="center"
+            android:text="@string/btc_bit_coin" />
+    </RelativeLayout>
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="0dp"
+        app:layout_heightPercent="16%w"
+        >
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_marginLeftPercent="16.5%"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/available"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100.25"
+                app:layout_marginTopPercent="2.9%w"
+                style="@style/black1_19"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/black4_14"
+                android:text="可用"/>
+        </com.zhy.android.percent.support.PercentLinearLayout>
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_marginLeftPercent="67.9%"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/freeze"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21.02"
+                app:layout_marginTopPercent="2.9%w"
+                style="@style/black1_19"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/black4_14"
+                android:text="冻结"/>
+        </com.zhy.android.percent.support.PercentLinearLayout>
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="11.5%w"
+        app:layout_paddingLeftPercent="4.2%"
+        app:layout_paddingRightPercent="4.2%">
+
+        <TextView
+            android:id="@+id/turn_out"
+            style="@style/white0_15"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_blue1_5"
+            android:gravity="center"
+            android:text="转出"
+            app:layout_widthPercent="43.4%" />
+
+        <TextView
+            android:id="@+id/turn_in"
+            style="@style/white0_15"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bg_green0_5"
+            android:gravity="center"
+            android:text="转入"
+            app:layout_widthPercent="43.4%" />
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/gray7"
+        app:layout_heightPercent="2.8%w"
+        app:layout_marginTopPercent="4%w"
+        />
+</com.zhy.android.percent.support.PercentLinearLayout>

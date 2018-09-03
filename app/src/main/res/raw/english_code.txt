@@ -1,0 +1,198 @@
+    StatusOk:Operation Success&
+    PagingNumberOutOfRange:Paging parameters exceeds the limit&
+    CofirmPasswordRequried:Please type password again&
+    PasswordFormatRequired:The password must be 6-16 digits，letters&
+    PasswordRequireDigit:Password must include the digits&
+    PasswordRequireLower:Password must include the digits&
+    PasswordRequireUpper:Password must include mixed case&
+    PasswordRequireNonLetterOrDigit:Password must include letters&
+    ModelNotMatch:Parameter is not match&
+    TypeRequired:Please select the category&
+    LangTypeRequired:Please select the language&
+    NickNameRequired:Please type the nickname&
+    CommentLengthTooShortOrTooLong:The signature is too long or too short&
+    CountryLengthTooShortOrTooLong:The length of the country is too short or too long&
+    StateLengthTooShortOrTooLong:The length of the province  is too short or too long&
+    CityLengthTooShortOrTooLong:The length of the city  is too short or too long&
+    RegionLengthTooShortOrTooLong:The length of the town is too short or too long&
+    AddrLengthTooShortOrTooLong:The length of the address is too short or too long&
+    FollowerNameTooShortOrTooLong:The length of the  Followers name is too short or too long&
+    TelPhoneAlreadyExist:The phone number has been registered&
+    TelPhoneNotSet: The user does not bind the phone number&
+    TelPhoneAlreadySet: The user has binded the phone number&
+    EmailAlreadySet: The user has binded the email&
+    EmailAlreadyExist: The email has been registered&
+    SMSCodeRequired: Please type the mobile verification code&
+    RegCodeFailed: The registration code is not available&
+    SMSCodeInvalid: The SMS code is not available&
+    EmailCodeOutOfDay: The email code is invalid&
+    SMSCodeOutOfDay: The SMS code is invalid&
+    LinkOutOfDay:   The link is invalid&
+    SMSCodeMustOutOfTime: The verification code is sent too frequently, please wait 120 seconds to resend&
+    RequestLimited: Request limited&
+    UserExists: User exists&
+    UserLogined: User has logged in&
+    UserNeedLogin:Please log in firstly&
+    RequestAddrFailed: The request address is not correct&
+    PicFormatNotSupport: only jpg/png/jpeg  &
+    PicNumberNotMatch: The quantity of the pictures unloaded are not correct&
+    RequiresVerification: Require authentication&
+    UserAlreadyInRole: You are already in the role&
+    UserLockout: Account is frozen& It will be will be cancelled a day later&
+    PaymentTypeRequired: Please choose the payment terms&
+    PaymentNameRepeat: The payer repeats&
+    PaymentNotExists: The payment term does not exist&
+    PaymentAccountNameTooShortOrTooLong: The length of pay account s not enough&
+    PaymentServeNameTooShortOrTooLong: The length of bank account is not enough&
+    CoinTypeRequired: Please choose the currency type&
+    CoinPriceRequired: Please choose the currency amount&
+    CoinAddressRequired: Please type the address&
+    CoinAddressTooShortOrTooLong: The length of address do not meet requirements&
+    CoinAddressCommentTooShortOrTooLong: The length of comments do not meet requirements&
+    CurrencyTypeRequired: Please choose currency unit&
+    ReleaseAmountRequired: Please type the amount&
+    FeeRequired: Please type the handing fee&
+    FeeOutOfRange: The range of Handing fee(2-1000)&
+    MinLimitedRequired: Please type the min transaction amount&
+    MaxLimitedRequired:  Please type the max transaction amount&
+    OpenTxTimeRequired: Please choose the transaction time&
+    OpenTxTimeNameReapeat: The transaction time repeats&
+    OpenTxTimeNameNoExists:  The transaction time is wrong&
+    OpenTxProviRequired: The trading terms is required&
+    OpenTxProviRepeat: The name of trading terms repeat&
+    OpenTxProviNotExists: The trading terms do not exist&
+    OpenTxProviTooShortOrTooLong: The terms are too long or too short&
+    AdvancedPasswordRequirdSet: The secondary password do not be setted up&
+    AdvancedPasswordSetAlready: The secondary password has been setted up&
+    OrderTypeRequired: The order type is required&
+    TodayBuyLimited: Exceed daily purchase limit&
+    TodaySellLimited: Exceed daily selling limit&
+    FeeBanlanceNotEnough: Handing fee is insufficient&
+    BuyerFeeBanlanceNotEnough: The handing fee of the buyer is insufficient, so it can not be deducted&
+    SellFeeBanlanceNotEnough: The handing fee of the seller is insufficient, so it can not be deducted&
+    MinPerUnitRequired: Need meet the min transaction amount&
+    MaxPerUnitRequired: Can not be more than max transaction amount&
+    OrderNotFound: The order does not exist&
+    OrderIsclose: It has been sold out&
+    OrderInsufficient: The stock is insufficient&
+    CanNotHandleSelf: You can not operate the order yourself&
+    OrderNeedAuth: You can not get into the order&
+    CanNotForceSelf: You can not follow yourself&
+    OrderProcessingCanNotCancelled: The order is under transaction, you need to wait till finished&
+    OrderRefreshTimeOutOfRange: The order can be updated in 60 minutes&
+    NotEnoughPlanAMT: Order balance is insufficient&
+    OrderIsLocked: The order is under locked&
+    OrderIsOverTime: The order is invalid&
+    IssueRequestNameIsRequired: Arbitration applicant is required&
+    IssueOrderIsRequired: The Arbitration order ID is required&
+    IssueIdIsRequired: The arbitration ID is required&
+    IssueReasonIsRequired: The reason for arbitration is required&
+    IssueCommitLenIsTooShort: The instructions for arbitration can not be less than 10 Characters&
+    IssueNotFound: The arbitration does not exist&
+    IssuePremissonRequired: You dont have permission to operate arbitration&
+    SettleExcepiton: Abnormal settlement&
+    NameRequired: The name is required&
+    NameTooShortOrTooLong: The nature is too long or too short&
+    PaymentLenTooShortOrTooLong: The payer name is too long or too short&
+    CoinAddrLimited: The quantity of address stored exceeds the limit&
+    CoinAddrNotFound: The address stored does not exist&
+    ChatRoomIdRequired: The parameter for chat room number is not correct&
+    CoinAddrMustUse: The account can be deleted only after using&
+    CoinAddrRepeat: The account exists&
+    DefaultAddrIsLock: The address stored do not exist&
+    QLNNotMatch: The condition for applying dealer do not meet requirements&
+    NeedPromoteDealer: You cant release because you are not the dealer&
+    RoleNotFound: The role do not exist&
+    RongYunServerError: RongYun server is abnormal&
+    MongoServerError: Mango server is abnormal&
+    SqlServeServerError: Sql server is abnormal&
+    UnkownError: Unknown error&
+    ServerError: Server is abnormal&
+    Default: Operation failed&
+    Success: Operation succeeded&
+    InviterNotFound: No Referees found&
+    UserNotExists: User do not exist&
+    EmailNotSet: Email is available&
+    PasswordMismatch: Wrong password&
+    EmailRequried: Please type your email&
+    EmailCodeInvalid: Wrong verification code&
+    PasswordTooShort: Password must be more than 8 digits&
+    PassMustMathCMPass: Passwords differ&
+    ParameterError: Wrong Parameter&
+    CoinTypeNotSupport: The currency type is not available&
+    EmailOrUserNameRequried: Please type email or user name&
+    BalanceNotEnough: Insufficient Balance&
+    Failed: Operation failed&
+    InviterRequried: Please type ID for the Referee&
+    SetterNotFound: No setter found&
+    SetterRequried: Please type ID for the Setter&
+    TypeInvalid: Invalid category&
+    PagingParameterRequired: Paging Parameters are required&
+    PagingIndexOutOfRange: Paging parameters exceeds the limit&
+    PhoneRequried: Please type your mobile number&
+    EmailOrPhoneRequried: Please type email or mobile number&
+    EmailOrPhoneFormatInvalid: The format of account or the format of phone number is not correct&
+    PasswordRequried: Please type password&
+    GoogleCodeRequride: Please type the google verification code&
+    GoogleCodeInvalid: The google verification code is not correct&
+    GoogleTwoFactoryIsActivate: Google authentication is enabled&
+    GoogleTwoFactoryNotActivate: Google authentication is not available&
+    SMSTwoFactoryIsActivate: SMS authentication is enabled&
+    TwoEleMustMach: The two parameters are different&
+    AdvancePasswordCanEqualBasicPassword: The login password can not be the same as trade password&
+    OpenTxTimeNotAllow: The ending time can not be earlier than beginning time&
+    ValueOutOfRange: The number typed is out of range&
+    LogoUrlRequired: Please upload the logo&
+    NickNameExists: The nickname exists&
+    Commented: You can not evaluate again if has evaluated&
+    SMSCodeLimited: The verification code is sent too frequently, please send later&
+    SMSSendTooBusy: The verification code is sent too frequently, please send later&
+    EmailSendTooBusy: Sent too frequently, please send later&
+    UserAlreadyForce: The user is followed&
+    PicTooLarge: The image is too large&
+    PicContentEmpty: The image unloaded can not be empty&
+    IdentityPicNotMatch: The image of ID card is not available&
+    IdentityConfirmed: The information of ID card has been approved&
+    RequireAleadyVerification: It has already verified& no need to verify again&
+    RoleNotExists: The role do not exist&
+    RoleExists: You are already in the role&
+    WebActionNotExists: Action do not exist&
+    PaymentAccountNoTooShortOrTooLong:The length of the collection account is 5-20 characters&
+    UserNotActivate:The user is not activated yet&
+    EmailOrTelphoneRequired: Please enter your email address or cell phone number&
+    EmailRequired: Please enter the mailbox&
+    TelPhoneRequired: Please enter your cell phone number&
+    TelPhoneLegthError: Cell phone number format error&
+    TelPhoneAlreadyExists:The phone number already exists&
+    EmailFormatError: Mailbox format error&
+    PasswordLengthError: Password length must be greater than 8 bits and less than 22 bits&
+    ConfirmPasswordNotMath: The two password input is inconsistent&
+    PasswordNotMatch: Password error&
+    PasswordFomartNotMath:The password must contain numeric case letters&
+    SMSSendTooMany:Please do not send text messages repeatedly&
+    SMSError: Failed to send authentication code&
+    SMSCodeNotFoundOrExpird: The validation code is invalid or expired&
+    PasswordErrorRemainTry: Password error& remaining number of times&
+    UserNotFound: user does not exist&
+    ScreenLocked: screen already locked&
+    ScreenUnlock: The screen is not locked&
+    ValidateCodeFalied: Verify code error&
+    PasswordLockout: Account is locked&
+    DoNotRepeatSendMail: Please do not send mailbox frequently&
+    UserAlreadyConfirmEmail: The mailbox has been confirmed&
+    NotEnoughCash: Insufficient cash balance&
+    NotEnoughCoin: Insufficient currency balance&
+    AdvancedpasswordNotMatch: Transaction password error&
+    SuccessChangePassword: Password changes succeeded&
+    ChangePasswordFailed: Password modification failed. Please contact the administrator&
+    LinkOutOfTime: The link is invalid&
+    IdentifyMustTakeTwoPic: Please upload your ID card on the reverse side&
+    ChargeSuccess: Recharge successfully&
+    HandlerObjectCanNotBeSamePerson: Cannot manipulate objects for yourself&
+    ProcedureExceptionAndRollback: Database exception&
+    SecurityWarnning: Security exception! Contact the administrator& please!&
+    GoogleCodeCanNotFound:The Google verification code does not exist!&
+    IdentityRequired:Please enter your name or identity card number&
+    Exception:System abnormality&
+    TokenFailed: Token Failed！&
+    ParameterNotValid: Parameter error！

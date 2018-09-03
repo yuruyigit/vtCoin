@@ -1,0 +1,56 @@
+package com.block.vtCoin.widget.text_view;
+
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.util.AttributeSet;
+
+public class ToastTextView extends android.support.v7.widget.AppCompatTextView {
+
+    private String text;
+    private float textSize;
+    private float paddingLeft;
+    private float paddingRight;
+    private int textColor;
+    private Paint paint1 = new Paint();
+    private float textShowWidth;
+
+    public ToastTextView(Context context, AttributeSet set) {
+        super(context, set);
+        text = this.getText().toString();
+        textSize = this.getTextSize();
+        textColor = this.getTextColors().getDefaultColor();
+        paddingLeft = this.getPaddingLeft();
+        paddingRight = this.getPaddingRight();
+        paint1.setTextSize(textSize);
+        paint1.setColor(textColor);
+        paint1.setAntiAlias(true);
+
+    }
+
+    protected void onDraw(Canvas canvas) {
+        textShowWidth = this.getMeasuredWidth() - paddingLeft - paddingRight;
+        int lineCount = 0;
+        text = this.getText().toString();
+        if (text == null)
+            return;
+        char[] textCharArray = text.toCharArray();
+        float drawedWidth = 0;
+        float charWidth;
+        for (int i = 0; i < textCharArray.length; i++) {
+            charWidth = paint1.measureText(textCharArray, i, 1);
+            if (textCharArray[i] == '\n') {
+                lineCount++;
+                drawedWidth = 0;
+                continue;
+            }
+            if (textShowWidth - drawedWidth < charWidth) {
+                lineCount++;
+                drawedWidth = 0;
+            }
+            canvas.drawText(textCharArray, i, 1, paddingLeft + drawedWidth, (lineCount + 1) * textSize, paint1);
+            drawedWidth += charWidth;
+        }
+    }
+
+}

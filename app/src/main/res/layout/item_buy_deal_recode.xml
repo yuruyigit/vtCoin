@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white0"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_heightPercent="11.6%w"
+        android:gravity="center_vertical"
+        style="@style/blue1_15"
+        android:text="极速听听（665615fSD）"
+        app:layout_marginLeftPercent="4%"
+        app:layout_marginRightPercent="4%" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0.5"
+        android:background="@color/gray6"
+        app:layout_marginLeftPercent="4%" />
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="8%w"
+        android:orientation="horizontal"
+        app:layout_paddingLeftPercent="4%"
+        app:layout_paddingTopPercent="3%w">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/money"
+        style="@style/black4_14"
+        />
+        <TextView
+            android:id="@+id/money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_15"
+            android:text="682.00 CNY"
+            app:layout_marginLeftPercent="12%"
+            style="@style/black1_14"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amount"
+            app:layout_marginLeftPercent="50%"
+            style="@style/black4_14"
+            />
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_15"
+            android:text="0.05BTC"
+            app:layout_marginLeftPercent="62%"
+            style="@style/black1_14"
+            />
+
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="8%w"
+        android:orientation="horizontal"
+        app:layout_paddingLeftPercent="4%"
+        app:layout_paddingTopPercent="3%w">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price"
+            style="@style/black4_14"
+            />
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_15"
+            android:text="25654.00 CNY"
+            app:layout_marginLeftPercent="12%"
+            style="@style/black1_14"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pay"
+            app:layout_marginLeftPercent="50%"
+            style="@style/black4_14"
+            />
+        <TextView
+            android:id="@+id/pay_way"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_15"
+            app:layout_marginLeftPercent="62%"
+            android:text="微信"
+            style="@style/black1_14"
+            />
+
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="2.8%w"
+        app:layout_marginTopPercent="2.8%w"
+        android:background="@color/gray7" />
+</com.zhy.android.percent.support.PercentLinearLayout>

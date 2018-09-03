@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white0"
+        android:orientation="vertical">
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/rl_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_heightPercent="11%"
+            app:layout_paddingLeftPercent="4.2%"
+            app:layout_paddingRightPercent="4.2%">
+
+            <TextView
+                style="@style/black1_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:drawableRight="@mipmap/release_arrow"
+                android:text="@string/avatar" />
+
+            <com.block.vtCoin.widget.imageview.CircleImageView
+                android:id="@+id/iv_avatar"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dimen_36"
+                android:src="@mipmap/avatar"
+                app:layout_heightPercent="9.7%w"
+                app:layout_widthPercent="9.7%" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_0.5"
+            android:background="@color/gray6"
+            app:layout_marginLeftPercent="4.2%" />
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/rl_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_heightPercent="7.6%"
+            app:layout_paddingLeftPercent="4.2%"
+            app:layout_paddingRightPercent="4.2%">
+
+            <TextView
+                style="@style/black1_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:drawableRight="@mipmap/release_arrow"
+                android:text="@string/nickname" />
+
+            <TextView
+                android:id="@+id/tv_nickname"
+                style="@style/black1_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dimen_36" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_0.5"
+            android:background="@color/gray6"
+            app:layout_marginLeftPercent="4.2%" />
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/rl_sign"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_heightPercent="7.6%"
+            app:layout_paddingLeftPercent="4.2%"
+            app:layout_paddingRightPercent="4.2%">
+
+
+            <TextView
+                style="@style/black1_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:drawableRight="@mipmap/release_arrow"
+                android:text="@string/sign_name" />
+
+            <TextView
+                android:id="@+id/tv_sign"
+                style="@style/black1_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dimen_36" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_0.5"
+            android:background="@color/gray6"
+            app:layout_marginLeftPercent="4.2%" />
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/rl_area"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_heightPercent="7.6%"
+            app:layout_paddingLeftPercent="4.2%"
+            app:layout_paddingRightPercent="4.2%">
+
+
+            <TextView
+                style="@style/black1_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:drawableRight="@mipmap/release_arrow"
+                android:text="@string/area" />
+
+            <TextView
+                android:id="@+id/tv_area"
+                style="@style/black1_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dimen_36"
+                android:text="@string/china" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_0.5"
+            android:background="@color/gray6"
+            app:layout_marginLeftPercent="4.2%" />
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/more_language"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_heightPercent="7.6%"
+            app:layout_paddingLeftPercent="4.2%"
+            app:layout_paddingRightPercent="4.2%">
+
+
+            <TextView
+                style="@style/black1_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:drawableRight="@mipmap/release_arrow"
+                android:text="@string/more_language" />
+
+            <TextView
+                android:id="@+id/tv_language"
+                style="@style/black1_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dimen_36"
+                android:text="@string/chinese" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/gray7"
+            app:layout_heightPercent="1.9%" />
+
+        <TextView
+            android:id="@+id/tv_login_history"
+            style="@style/black1_15"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:drawableRight="@mipmap/release_arrow"
+            android:gravity="center_vertical"
+            android:text="@string/login_history"
+            app:layout_heightPercent="7.6%"
+            app:layout_paddingLeftPercent="4.2%"
+            app:layout_paddingRightPercent="4.2%" />
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout
+        android:id="@+id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:tr_enable_loadmore="false">
+
+        <ScrollView
+            android:id="@+id/collect_scrollw"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:overScrollMode="never"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-5dp"
+                android:orientation="vertical">
+                <include layout="@layout/item_deal" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/color_white"
+                    android:orientation="vertical"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="26dp">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+                            <TextView
+                                style="@style/black5_15"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/num" />
+                            <EditText
+                                android:id="@+id/icon_num"
+                                style="@style/black4_12"
+                                android:layout_width="150dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/bg_white5_5"
+                                android:gravity="center"
+                                android:hint="@string/please_into_num"
+                                android:inputType="numberDecimal" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/choose_coin_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="true">
+
+                            <TextView
+                                android:id="@+id/coin_type_text"
+                                style="@style/black5_15"
+                                android:layout_width="52dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/bg_white0_blue5_left_5"
+                                android:gravity="center"
+                                android:text="BTC" />
+
+                            <RelativeLayout
+                                android:layout_width="63dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/bg_blue6_right_5">
+
+                                <ImageView
+                                    android:id="@+id/coin_image"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:src="@mipmap/business_down" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="26dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="@style/black5_15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/money" />
+
+                        <EditText
+                            android:id="@+id/money_num"
+                            style="@style/black4_12"
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/bg_white5_5"
+                            android:gravity="center"
+                            android:hint="@string/please_into_money"
+                            android:inputType="numberDecimal" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/deal_buy_into"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/bg_blue1_5"
+                        android:gravity="center"
+                        android:text="@string/buy_into"
+                        android:textColor="@color/color_white"
+                        android:textSize="@dimen/text_size_17" />
+                </LinearLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none"/>
+            </LinearLayout>
+
+        </ScrollView>
+    </com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>
+
+</RelativeLayout>

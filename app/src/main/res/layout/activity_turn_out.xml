@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="53%"
+        android:orientation="vertical"
+        android:background="@color/white0"
+        app:layout_paddingBottomPercent="15.7%">
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_heightPercent="14.2%"
+            app:layout_marginLeftPercent="4.2%"
+            app:layout_marginRightPercent="4.2%"
+            android:gravity="center_vertical"
+            android:id="@+id/accept_address">
+
+            <TextView
+                style="@style/black1_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@mipmap/release_arrow"
+                android:text="接收地址" />
+
+            <TextView
+                android:id="@+id/tv_address"
+                style="@style/gray_ac_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请选择"
+                app:layout_marginLeftPercent="29%" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_0.5"
+            android:background="@color/gray6"
+            app:layout_marginLeftPercent="4.2%"
+            />
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_heightPercent="14%"
+            app:layout_marginLeftPercent="4.2%"
+            app:layout_marginRightPercent="4.2%"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                style="@style/black1_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="转出数量" />
+
+            <EditText
+                android:id="@+id/et_amount"
+                style="@style/gray_ac_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请输入"
+                android:background="@null"
+                app:layout_marginLeftPercent="29%" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_0.5"
+            android:background="@color/gray6"
+            app:layout_marginLeftPercent="4.2%"
+            />
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center_vertical"
+            app:layout_heightPercent="14%"
+            app:layout_marginLeftPercent="4.2%"
+            app:layout_marginRightPercent="4.2%">
+
+            <TextView
+                style="@style/black5_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="平台手续费" />
+
+            <TextView
+                style="@style/black1_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="0.0000BTC"
+                app:layout_marginLeftPercent="29%" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_heightPercent="3.2%"
+            android:background="@color/gray7"
+            />
+
+        <TextView
+            android:id="@+id/sure"
+            android:layout_width="match_parent"
+            app:layout_heightPercent="13%"
+            android:text="确认转出"
+            style="@style/gray_f6_15"
+            android:gravity="center"
+            app:layout_marginLeftPercent="4.2%"
+            app:layout_marginRightPercent="4.2%"
+            app:layout_marginTopPercent="9%"
+            android:background="@drawable/bg_blue1_5"
+
+            />
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/gray7"
+        app:layout_paddingLeftPercent="4.4%"
+        app:layout_paddingRightPercent="4.3%">
+
+        <TextView
+            style="@style/black4_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="转账说明"
+            app:layout_marginTopPercent="3%" />
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/black4_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.为了保护您的私隐，我们会为每次交易提供新的比特币地址。这样可以防止有人通过查看区块链跟踪您的所有收款记录。注意，此处提供的任何地址都会链接到您的Vtcoin帐户。"
+            app:layout_marginTopPercent="3.7%" />
+
+        <TextView
+            style="@style/black4_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.一般需要30分钟接收比特币，如果比特币网络比较慢，最多可能需要3小时。转入交易需要接收到 3 次比特币网络确认才会在您的钱包中显示出来。最小的存入金额为 0.0002BTC，我们不会处理少于该金额的比特币存入请求。"
+            app:layout_marginTopPercent="5%" />
+    </com.zhy.android.percent.support.PercentLinearLayout>
+</com.zhy.android.percent.support.PercentLinearLayout>

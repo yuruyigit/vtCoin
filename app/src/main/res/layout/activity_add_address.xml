@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white0"
+    android:orientation="vertical">
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:id="@+id/rl_coin_type"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        app:layout_heightPercent="8%"
+        app:layout_paddingLeftPercent="4.2%"
+        app:layout_paddingRightPercent="4.2%">
+
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/black1_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@mipmap/release_arrow"
+            android:text="阳光听听" />
+
+        <TextView
+            android:id="@+id/tv_coin_type"
+            style="@style/black6_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btc_bit_coin"
+            app:layout_marginLeftPercent="25%"
+            app:layout_marginRightPercent="7.9%"
+            android:drawableRight="@mipmap/administration_ltc"
+            />
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        app:layout_heightPercent="1.8%"
+        android:background="@color/gray6"
+       />
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_vertical"
+        app:layout_heightPercent="8%"
+        app:layout_paddingLeftPercent="4.2%"
+        app:layout_paddingRightPercent="4.2%">
+
+        <TextView
+            style="@style/black1_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/note_name" />
+
+        <EditText
+            android:id="@+id/et_name"
+            style="@style/black6_15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="@string/please_input"
+            app:layout_marginLeftPercent="25%" />
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        app:layout_heightPercent="1.8%"
+        android:background="@color/gray6"
+       />
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="15%"
+        app:layout_paddingLeftPercent="4.2%"
+        app:layout_paddingRightPercent="4.2%">
+
+        <TextView
+            style="@style/black1_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_paddingTopPercent="4%"
+            android:text="@string/accept_address" />
+
+        <EditText
+            android:id="@+id/et_address"
+            style="@style/black6_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="@string/please_input"
+            app:layout_paddingTopPercent="4%"
+            app:layout_marginLeftPercent="25%" />
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/gray7"
+        app:layout_heightPercent="1.8%" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_paddingLeftPercent="4.2%"
+        app:layout_paddingTopPercent="1.9%"
+        style="@style/black6_15"
+        android:text="@string/add_tip"/>
+    <TextView
+        android:id="@+id/commit"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="8%"
+        app:layout_marginLeftPercent="4.2%"
+        app:layout_marginRightPercent="4.2%"
+        app:layout_marginTopPercent="5.5%"
+        style="@style/white0_15"
+        android:gravity="center"
+        android:background="@drawable/bg_blue1_5"
+        android:text="@string/sure_add"/>
+</com.zhy.android.percent.support.PercentLinearLayout>

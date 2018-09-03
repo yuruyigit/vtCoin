@@ -1,0 +1,158 @@
+    Status: 操作成功&
+    Success: 操作成功&
+    Failed: 操作失败&
+    PagingParameterRequired:分页参数是必填项&
+    PagingIndexOutOfRange:分页参数超出限制&
+    PagingNumberOutOfRange:分页参数超出限制&
+    EmailOrPhoneRequried:账号或手机是必填项&
+    EmailOrPhoneFormatInvalid:账号或者电话号码格式错误&
+    PasswordRequried:密码是必填项&
+    CofirmPasswordRequried:校验密码是必填项&
+    PasswordTooShort:密码太短&
+    PassMustMathCMPass:两次输入的密码不一致&
+    PasswordFormatRequired:原密码不正确&
+    PasswordRequireDigit:密码需包含数字&
+    PasswordRequireLower:密码必需包含大小写&
+    PasswordRequireUpper:密码必需包含大小写&
+    PasswordRequireNonLetterOrDigit:密码必需包含字母&
+    PasswordMismatch:密码不匹配&
+    UnkownError:未知的错误&
+    ParameterError:参数错误&
+    ModelNotMatch:参数不符合要求&
+    TypeRequired:类型是必填项&
+    LangTypeRequired:语言是必填项&
+    NickNameRequired:昵称是必填项&
+    CommentLengthTooShortOrTooLong:个性签名长度过长或过短&
+    CountryLengthTooShortOrTooLong:国家长度过长或过短&
+    StateLengthTooShortOrTooLong:省份长度过长或过短&
+    CityLengthTooShortOrTooLong:城市长度过长或过短&
+    RegionLengthTooShortOrTooLong:城镇长度过长或过短&
+    AddrLengthTooShortOrTooLong:地址详情长度过长或过短&
+    FollowerNameTooShortOrTooLong:关注用户的长度过长或过短&
+    TelPhoneAlreadyExist:电话号码已注册&
+    TelPhoneNotSet: 用户未绑定手机&
+    TelPhoneAlreadySet: 用户已绑定手机&
+    EmailNotSet: 用户未绑定邮箱&
+    EmailAlreadySet: 用户已绑定邮箱&
+    EmailAlreadyExist: 该邮箱已被注册&
+    SMSCodeRequired: 手机验证码是必填项&
+    RegCodeFailed: 验证码无效&
+    SMSCodeInvalid: 验证码无效&
+    EmailCodeInvalid: Email验证码无效&
+    EmailCodeOutOfDay: Email验证码过期&
+    SMSCodeOutOfDay: 验证码已过期&
+    LinkOutOfDay: 链接已过期&
+    SMSCodeMustOutOfTime: 验证码需要等待120秒才能重新发送&
+    RequestLimited: 请求次数限制&
+    UserExists: 用户已存在&
+    UserNotExists: 用户不存在&
+    UserLogined: 用户已经登陆&
+    UserNeedLogin:请先登录&
+    RequestAddrFailed: 申请地址错误&
+    PicFormatNotSupport: 图片格式只支持 jpg png jpeg&
+    PicNumberNotMatch: 图片数量有误&
+    RequiresVerification: 需要认证&
+    UserAlreadyInRole: 用户已经存在该角色&
+    UserLockout: 账户已冻结，一天后解冻&
+    PaymentTypeRequired: 支付方式是必填项&
+    CoinTypeRequired: 货币类型是必填项&
+    CurrencyTypeRequired: 货币单位是必填项&
+    ReleaseAmountRequired: 发布总数是必填项&
+    FeeRequired: 手续费是必填项&
+    MinPerUnitRequired:最小限额超出范围&
+    MaxPerUnitRequired:最大限额超出范围&
+    MinLimitedRequired: 最小限额超出范围&
+    MaxLimitedRequired: 最大限额超出范围&
+    OpenTxTimeRequired: 交易时间是必填项&
+    OpenTxProviRequired: 交易条款是必填项&
+    OpenTxProviTooShortOrTooLong: 条款文字太长&
+    OrderTypeRequired: 订单类型是必填项&
+    BalanceNotEnough: 余额不足&
+    OrderNotFound: 订单不存在&
+    OrderProcessingCanNotCancelled: 订单在交易状态,需要等待订单完成&
+    RoleNotFound: 角色不存在&
+    ServerError: 服务器异常&
+    RoleNotExists: 角色不存在&
+    RoleExists: 角色已存在&
+    WebActionNotExists: 对应的Action不存在&
+    AdvancedPasswordRequirdSet:您尚未设置交易密码，请先设置&
+    PaymentAccountNameTooShortOrTooLong:收款姓名长度范围为2-15个字符&
+    PaymentAccountNoTooShortOrTooLong:收款账号长度范围为5-20个字符&
+    PaymentServeNameTooShortOrTooLong:收款账号长度范围为3-15个字符&
+    NeedPromoteDealer:您不是交易商，无法进行此操作&
+    OrderIsLocked:订单已锁定&
+    CanNotHandleSelf:此订单为自己所有，无法进行此操作&
+    ValueOutOfRange:数值超出范围&
+    NotEnoughPlanAMT:数量超出剩余需求量&
+    GoogleCodeInvalid:Google验证码错误&
+    TypeInvalid:类型错误&
+    PicContentEmpty:请上传账号二维码&
+    PicTooLarge:图片大小请限制在3M内&
+    IdentityPicNotMatch:请上传正确的证件照&
+    NickNameExists:昵称已存在&
+    ChatRoomIdRequired:房间ID是必填项&
+    IssueCommitLenIsTooShort:仲裁原因请至少填入10个字&
+    QLNNotMatch:认证不通过&
+    CanNotForceSelf:不能关注自己&
+    SMSCodeLimited:发送太频繁，请稍后再试&
+    OrderIsclose:订单已关闭&
+    CoinAddrLimited:币种地址已达上限&
+    FeeBanlanceNotEnough:VTC余额不足&
+    OrderNeedAuth:无权操作订单&
+    Commented:已评价&
+    OrderRefreshTimeOutOfRange:每小时只能刷新一次&
+    CoinTypeNotSupport:暂时不支持该货币交易&
+    PaymentNameRepeat:支付名称重复&
+    OpenTxProviNotExists:交易条款不存在&
+    OpenTxProviRepeat:广告名称已存在&
+    OpenTxTimeNameReapeat:交易时间名称重复&
+    OpenTxTimeNameNoExists:交易时间不存在&
+    PaymentNotExists:支付不存在&
+    OpenTxTimeNotAllow:请保证开放时间长于30分钟,且结束时间不可早于开放时间&
+    OrderInsufficient:订单库存不足&
+    TodayBuyLimited:超出每日买入限制&
+    TodaySellLimited:超出每日卖出限制&
+    AdvancePasswordCanEqualBasicPassword:交易密码和登录密码不能相同&
+    CoinAddressTooShortOrTooLong: 接收地址太长或太短&
+    CoinAddrRepeat: 账号地址已存在&
+    CoinAddrNotFound: 非合法的区块链地址&
+    TwoEleMustMach: 收款账号和确认账号不一致&
+    Default: 请求失败&
+    UserNotActivate:用户尚未激活&
+    EmailOrTelphoneRequired: 请输入邮箱地址或手机号码&
+    EmailRequired: 邮箱是必填项&
+    TelPhoneRequired: 手机号码是必填项&
+    TelPhoneLegthError: 手机号码格式错误&
+    TelPhoneAlreadyExists:手机号码已注册&
+    EmailFormatError: 邮箱格式错误&
+    PasswordLengthError: 密码长度必须大于8位并小于22位&
+    ConfirmPasswordNotMath: 两次密码输入不一致&
+    PasswordNotMatch: 密码错误&
+    PasswordFomartNotMath:密码必须包含数字大小写字母&
+    SMSSendTooMany:请勿重复发送短信&
+    SMSError: 发送验证码失败&
+    SMSCodeNotFoundOrExpird: 验证码无效或过期&
+    PasswordErrorRemainTry: 密码错误,余下剩余次数&
+    UserNotFound: 用户不存在&
+    ScreenLocked: 屏幕已锁定&
+    ScreenUnlock: 屏幕未锁定&
+    ValidateCodeFalied: 验证码错误&
+    PasswordLockout: 账号已经锁定&
+    DoNotRepeatSendMail: 请勿频发发送邮箱&
+    UserAlreadyConfirmEmail: 邮箱已经确定&
+    NotEnoughCash: 现金余额不足&
+    NotEnoughCoin: 币余额不足&
+    AdvancedpasswordNotMatch: 二级密码错误&
+    SuccessChangePassword: 密码修改成功&
+    ChangePasswordFailed: 密码修改失败，请联系管理员&
+    LinkOutOfTime: 链接已失效&
+    IdentifyMustTakeTwoPic: 请上传身份证正反面&
+    ChargeSuccess: 充值成功&
+    HandlerObjectCanNotBeSamePerson: 操作对象不能为自己&
+    ProcedureExceptionAndRollback: 数据库异常&
+    SecurityWarnning: 安全异常!请联系管理员!&
+    GoogleCodeCanNotFound:Google验证码不存在!&
+    IdentityRequired:请输入姓名或身份证号码&
+    Exception:系统异常&
+    TokenFailed: Token Faild！&
+    ParameterNotValid: 参数错误！

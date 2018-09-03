@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="7.6%"
+        app:layout_paddingLeftPercent="4.2%"
+        app:layout_paddingRightPercent="4.2%"
+        android:id="@+id/rl_bill_type"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="账单类型"
+            style="@style/black1_15"
+            android:drawableRight="@mipmap/release_arrow"/>
+
+        <TextView
+            android:id="@+id/tv_bill_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            app:layout_marginRightPercent="7%"
+            style="@style/gray_ac_15"
+            android:text="流水账单"/>
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0.5"
+        android:background="@color/gray6"
+        app:layout_marginLeftPercent="4.2%" />
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="7.6%"
+        app:layout_paddingLeftPercent="4%"
+        app:layout_paddingRightPercent="4%"
+        android:id="@+id/rl_coin_type"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="币种类型"
+            style="@style/black1_15"
+            android:drawableRight="@mipmap/release_arrow"/>
+
+        <TextView
+            android:id="@+id/tv_coin_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            app:layout_marginRightPercent="7%"
+            style="@style/gray_ac_15"
+            android:text="SC 区块盾"/>
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_0.5"
+        android:background="@color/gray6"
+        app:layout_marginLeftPercent="4.2%" />
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="7.6%"
+        app:layout_paddingLeftPercent="4%"
+        app:layout_paddingRightPercent="4%"
+        android:id="@+id/rl_deal_type"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="交易类型"
+            style="@style/black1_15"
+            android:drawableRight="@mipmap/release_arrow"/>
+
+        <TextView
+            android:id="@+id/tv_deal_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            app:layout_marginRightPercent="7%"
+            style="@style/gray_ac_15"
+            android:text="全部"/>
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        app:layout_heightPercent="5.5%"
+        android:background="@color/gray7"
+        app:layout_paddingLeftPercent="4%"
+        android:text="交易时间"
+        style="@style/black5_15"
+        android:gravity="center_vertical"
+        android:layout_height="0dp"/>
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="18%"
+        app:layout_paddingLeftPercent="4.2%"
+        app:layout_paddingRightPercent="4.2%"
+        android:orientation="horizontal">
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_start_time"
+                style="@style/gray_ac_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_marginTopPercent="15%"
+                android:background="@drawable/bg_white0_gray6_5"
+                android:gravity="center"
+                android:text="请选择"
+                app:layout_paddingBottomPercent="7%"
+                app:layout_paddingTopPercent="7%"
+                />
+
+            <TextView
+                style="@style/black1_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="开始时间"
+                android:layout_marginTop="10dp"
+                />
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+        <View
+            android:layout_width="@dimen/dimen_15"
+            android:layout_height="wrap_content"/>
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+           >
+
+            <TextView
+                android:id="@+id/tv_end_time"
+                style="@style/gray_ac_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_white0_gray6_5"
+                android:gravity="center"
+                android:text="请选择"
+                app:layout_marginTopPercent="15%"
+                app:layout_paddingBottomPercent="7%"
+                app:layout_paddingTopPercent="7%" />
+
+            <TextView
+                style="@style/black1_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="截止时间"
+                android:layout_marginTop="@dimen/dimen_10"/>
+        </com.zhy.android.percent.support.PercentLinearLayout>
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+    <TextView
+        android:id="@+id/tv_search"
+        style="@style/white0_16"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="7.6%"
+        android:background="@drawable/bg_blue1_5"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dimen_12"
+        android:text="搜索"
+        android:textColor="@drawable/text_gray9_white0_selector"
+        app:layout_marginLeftPercent="4%"
+        app:layout_marginRightPercent="4%" />
+
+</com.zhy.android.percent.support.PercentLinearLayout>

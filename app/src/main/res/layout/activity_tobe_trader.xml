@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:background="#f4f9fc"
+        android:orientation="vertical"
+        app:layout_heightPercent="19%">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/join_vtCoin"
+            app:layout_marginTopPercent="7.1%w"
+            style="@style/blue1_20"
+            app:layout_marginLeftPercent="16.8%" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            app:layout_marginTopPercent="3.6%w"
+            style="@style/blue1_20"
+            android:text="@string/tobe_trader" />
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_marginTopPercent="4.2%"
+        app:layout_marginLeftPercent="4.2%"
+        android:text="@string/apply_require"
+        style="@style/black1_15"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_marginTopPercent="2%"
+        app:layout_marginLeftPercent="22.9%"
+        android:text="@string/require1"
+        style="@style/black5_13"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_marginTopPercent="2.2%"
+        app:layout_marginLeftPercent="22.9%"
+        android:text="@string/require2"
+        style="@style/black5_13"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_marginTopPercent="2.2%"
+        app:layout_marginLeftPercent="22.9%"
+        android:text="@string/require3"
+        style="@style/black5_13"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_marginTopPercent="2.2%"
+        app:layout_marginLeftPercent="22.9%"
+        android:text="@string/require4"
+        style="@style/black5_13"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_marginTopPercent="2.2%"
+        app:layout_marginLeftPercent="22.9%"
+        android:text="@string/require5"
+        style="@style/black5_13"
+        />
+
+    <TextView
+        android:id="@+id/apply_now"
+        style="@style/white0_15"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_blue1_5"
+        android:gravity="center"
+        android:text="@string/apply_now"
+        app:layout_heightPercent="7.6%"
+        app:layout_marginLeftPercent="4.2%"
+        app:layout_marginRightPercent="4.2%"
+        app:layout_marginTopPercent="5.7%" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_marginLeftPercent="4.4%"
+        app:layout_marginTopPercent="3%">
+
+        <TextView
+            android:id="@+id/agree"
+            style="@style/black1_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/circle_click"
+            android:drawablePadding="@dimen/dimen_4"
+            android:paddingBottom="@dimen/dimen_8"
+            android:paddingTop="@dimen/dimen_8"
+            android:text="@string/agree" />
+
+        <TextView
+            android:id="@+id/terms"
+            style="@style/green1_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/agree"
+            android:padding="@dimen/dimen_8"
+            android:text="@string/trader_service_terms" />
+
+    </RelativeLayout>
+</com.zhy.android.percent.support.PercentLinearLayout>
+
+

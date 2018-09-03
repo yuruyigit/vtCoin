@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white0"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="发送成功\n请登录邮箱查收邮件激活账号"
+        style="@style/blue1_15"
+        android:gravity="center"
+        android:drawableTop="@mipmap/success"
+        android:drawablePadding="@dimen/dimen_20"
+        app:layout_marginTopPercent="17%"
+        />
+
+    <TextView
+        android:id="@+id/login"
+        style="@style/white0_16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_before0_5"
+        android:gravity="center"
+        android:padding="@dimen/dimen_12"
+        android:text="我已激活，去登录"
+        android:textColor="@drawable/text_gray9_white0_selector"
+        app:layout_marginLeftPercent="4%"
+        app:layout_marginRightPercent="4%"
+        app:layout_marginTopPercent="6.6%" />
+
+</com.zhy.android.percent.support.PercentLinearLayout>
+
+

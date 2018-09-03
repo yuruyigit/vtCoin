@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white0">
+
+        <TextView
+            android:id="@+id/tvLeft"
+            android:layout_width="match_parent"
+            app:layout_heightPercent="12%w"
+            android:gravity="center"
+            android:textColor="@color/text_1616"
+            android:textSize="@dimen/text_size_15"
+            android:text="@string/take_photo"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_0.5"
+            android:background="@color/gray6"/>
+        <TextView
+            android:id="@+id/tvRight"
+            android:layout_width="match_parent"
+            app:layout_heightPercent="12%w"
+            android:gravity="center"
+            android:textColor="@color/text_1616"
+            android:textSize="@dimen/text_size_15"
+            android:text="@string/photo_code"
+            />
+    <View
+        android:layout_width="match_parent"
+        app:layout_heightPercent="2.8%w"
+        android:background="@color/gray7"/>
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="12%w"
+        android:textColor="@color/color_blue"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="@string/cancel"/>
+</com.zhy.android.percent.support.PercentLinearLayout>

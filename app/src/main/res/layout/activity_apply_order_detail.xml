@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_activity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_above="@+id/bottom_rl"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <include
+                android:id="@+id/order_info_view"
+                layout="@layout/buy_detail_order_info" />
+            <include
+                android:id="@+id/pay_way_view"
+                layout="@layout/buy_detail_pay_way"/>
+            <include
+            android:id="@+id/trader_view"
+            layout="@layout/buy_detail_trader" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_0.5"
+                android:background="@color/gray6"/>
+            <include
+                android:id="@+id/time_view"
+                layout="@layout/buy_detail_time" />
+        </LinearLayout>
+    </ScrollView>
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:id="@+id/bottom_rl"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="16%w"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white0"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_0.5"
+            android:background="@color/gray6"
+            />
+        <LinearLayout
+            android:id="@+id/check_progress"
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            app:layout_marginLeftPercent="4.2%"
+            app:layout_marginRightPercent="4.2%"
+            app:layout_heightPercent="11%w">
+            <TextView
+                android:id="@+id/have_pay"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_white0_gray6_5"
+                android:gravity="center"
+                android:text="@string/check_progress"
+                style="@style/blue1_15"
+                />
+            <TextView
+                android:id="@+id/cancel_apply"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/dimen_16"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_white0_gray6_5"
+                android:gravity="center"
+                android:text="@string/cancel_arbitrament"
+                style="@style/blue1_15"
+                />
+    </LinearLayout>
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+
+
+</com.zhy.android.percent.support.PercentRelativeLayout>
+
+

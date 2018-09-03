@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+     <!--fillBefore是指动画结束时画面停留在此动画的第一帧;
+         fillAfter是指动画结束是画面停留在此动画的最后一帧。
+         pivotX表示缩放的中轴点X坐标，距离自身左边缘的位置
+         -->
+     <scale
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:fromXScale="1.0"
+        android:toXScale="1.0"
+        android:fromYScale="0.0"
+        android:toYScale="1.0"
+        android:fillAfter="false"
+        android:duration="400"/>
+</set>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white0">
+
+
+        <com.block.vtCoin.login.phone_location.weiget.MySlideView
+            android:id="@+id/my_slide_view"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp" />
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/my_slide_view">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_sticky_example"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none" />
+
+        </FrameLayout>
+
+        <com.block.vtCoin.login.phone_location.weiget.CircleTextView
+            android:id="@+id/my_circle_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>

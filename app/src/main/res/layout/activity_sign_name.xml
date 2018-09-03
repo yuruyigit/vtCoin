@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/llSetting"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:background="@color/white0"
+        >
+        <EditText
+            android:background="@null"
+            android:id="@+id/nick_name"
+            android:textColor="@color/text_1616"
+            android:textSize="@dimen/text_size_15"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/sign_num"/>
+    </LinearLayout>
+
+
+</LinearLayout>

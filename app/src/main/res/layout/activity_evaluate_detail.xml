@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray7"
+    android:orientation="vertical">
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            style="@style/black5_17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/star_rate"
+            app:layout_paddingLeftPercent="9.2%"
+            app:layout_paddingTopPercent="2.7%" />
+
+        <com.block.vtCoin.widget.starView.RatingBarView
+            android:id="@+id/rbBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            app:layout_paddingLeftPercent="9.2%"
+            app:layout_paddingTopPercent="2.8%"
+            app:starCount="5"
+            app:starEmpty="@mipmap/no_selcet_stars"
+            app:starFill="@mipmap/selcet_stars"
+            app:starHalf="@mipmap/selcet_stars"
+            app:starImageSize="25dp"
+            app:starPadding="15dp"
+            app:starStep="0" />
+
+        <TextView
+            style="@style/black5_17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/leave_a_message"
+            app:layout_marginLeftPercent="9.2%"
+            app:layout_paddingTopPercent="5.7%" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_heightPercent="28%"
+            app:layout_marginTopPercent="2.1%"
+            app:layout_marginLeftPercent="4.2%"
+            app:layout_marginRightPercent="4.2%"
+            android:background="@drawable/bg_white0_gray6"
+            android:orientation="vertical"
+            app:layout_paddingTopPercent="2.9%"
+            app:layout_paddingLeftPercent="5.1%"
+            app:layout_paddingRightPercent="5.1%"
+            >
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="跟安徽卡市场看不错撒擦拭擦拭布擦地板啥啊说不出看看爱上查看把开始筹备阿克苏就不错卡女看吧阿开VB"
+                style="@style/black1_14"
+                />
+        </RelativeLayout>
+    </com.zhy.android.percent.support.PercentLinearLayout>
+        <TextView
+            android:id="@+id/no_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/no_evaluate"
+            android:drawablePadding="@dimen/dimen_20"
+            android:drawableTop="@mipmap/evaluate_comm"
+            android:visibility="gone"
+            style="@style/black4_15" />
+</com.zhy.android.percent.support.PercentRelativeLayout>

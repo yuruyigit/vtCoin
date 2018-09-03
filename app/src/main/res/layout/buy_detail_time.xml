@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_paddingLeftPercent="4.2%"
+        app:layout_paddingTopPercent="3.3%w"
+        app:layout_paddingBottomPercent="3.3%w"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/trader_describe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="买方九十分钟内没处理本单，将自动取消该订单！"
+            android:textColor="@color/text_1616"
+            android:textSize="@dimen/text_12" />
+        <TextView
+            android:id="@+id/order_create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_marginTopPercent="1.7%w"
+            android:text="订单创建：2017-8-16 下午14:00"
+            android:textColor="@color/gray_ac"
+            android:textSize="@dimen/text_12" />
+        <TextView
+            android:id="@+id/order_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_marginTopPercent="1.7%w"
+            android:text="订单确认：2017-8-16 下午14:10"
+            android:textColor="@color/gray_ac"
+            android:textSize="@dimen/text_12"
+            />
+        <TextView
+            android:id="@+id/buyer_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_marginTopPercent="2%w"
+            android:text="订单确认：2017-8-16 下午14:10"
+            android:textColor="@color/gray_ac"
+            android:textSize="@dimen/text_12"
+            android:visibility="gone"
+            />
+        <TextView
+            android:id="@+id/sale_commit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_marginTopPercent="2%w"
+            android:text="订单确认：2017-8-16 下午14:10"
+            android:textColor="@color/gray_ac"
+            android:textSize="@dimen/text_12"
+            android:visibility="gone"
+            />
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+</com.zhy.android.percent.support.PercentRelativeLayout>
+
+
